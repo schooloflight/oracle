@@ -554,7 +554,7 @@ body {
   opacity: 0.6;
 }
 
-/* cardContent 繝輔ぉ繝ｼ繝峨う繝ｳ蛻晄悄迥ｶ諷� */
+/* cardContent */
 #cardContent {
   display: flex;
   flex-direction: column;

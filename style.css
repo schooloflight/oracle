@@ -49,7 +49,7 @@ body {
   overflow: hidden;
 }
 
-/* 荳ｸ縺�ｲ貞ｭ� */
+/* 星 */
 .star {
   position: absolute;
   border-radius: 50%;
@@ -59,11 +59,11 @@ body {
   box-shadow: 0 0 4px 1px rgba(212,168,83,0.6), 0 0 8px 2px rgba(212,168,83,0.3);
 }
 
-/* 蜊∝ｭ励く繝ｩ繧ｭ繝ｩ */
+/* 煌めき */
 .sparkle {
   position: absolute;
-  width: var(--size, 12px);
-  height: var(--size, 12px);
+  width: var(--size, 8px);
+  height: var(--size, 8px);
   animation: sparklePop var(--dur, 4s) ease-in-out infinite var(--delay, 0s);
   opacity: 0;
 }
@@ -72,28 +72,28 @@ body {
 .sparkle::after {
   content: '';
   position: absolute;
-  background: linear-gradient(to right, transparent, var(--gold), transparent);
+  background: linear-gradient(to right, transparent, rgba(212,168,83,0.5), transparent);
   border-radius: 2px;
 }
 
 .sparkle::before {
   width: 100%;
-  height: 1.5px;
+  height: 1px;
   top: 50%;
   left: 0;
   transform: translateY(-50%);
 }
 
 .sparkle::after {
-  width: 1.5px;
+  width: 1px;
   height: 100%;
   top: 0;
   left: 50%;
   transform: translateX(-50%);
-  background: linear-gradient(to bottom, transparent, var(--gold), transparent);
+  background: linear-gradient(to bottom, transparent, rgba(212,168,83,0.5), transparent);
 }
 
-/* 豬√ｌ譏� */
+/* 流れ星 */
 .shooting-star {
   position: absolute;
   width: var(--len, 60px);

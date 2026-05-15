@@ -408,17 +408,17 @@ function createStars() {
   }
 
   // 流れ星（1本）
-  const shooting = document.createElement('div');
-  shooting.className = 'shooting-star';
-  shooting.style.cssText = `
-    left: ${Math.random() * 70 + 10}%;
-    top: ${Math.random() * 30}%;
-    --len: ${Math.random() * 60 + 60}px;
-    --dur: ${Math.random() * 8 + 8}s;
-    --delay: ${Math.random() * 20 + 5}s;
-  `;
-  container.appendChild(shooting);
-}
+ //  const shooting = document.createElement('div');
+ //  shooting.className = 'shooting-star';
+ //  shooting.style.cssText = `
+  //   left: ${Math.random() * 70 + 10}%;
+   //  top: ${Math.random() * 30}%;
+   //  --len: ${Math.random() * 60 + 60}px;
+   //  --dur: ${Math.random() * 8 + 8}s;
+   //  --delay: ${Math.random() * 20 + 5}s;
+  // `;
+ //  container.appendChild(shooting);
+ //}
 
 
 // ===========================

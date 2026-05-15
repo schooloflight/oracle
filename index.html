@@ -1,1 +1,134 @@
+<!DOCTYPE html>
 
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Soul Quest Oracle Cards</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300;1,400&family=Cinzel:wght@400;500&family=Noto+Serif+JP:wght@300;400&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- 星パーティクル背景 -->
+
+  <div class="stars" id="stars"></div>
+
+  <!-- ハンバーガーメニュー -->
+
+  <button class="hamburger" id="hamburgerBtn" aria-label="メニューを開く">
+    <span></span><span></span><span></span>
+  </button>
+
+  <!-- サイドメニュー -->
+
+  <div class="menu-overlay" id="menuOverlay"></div>
+  <nav class="side-menu" id="sideMenu">
+    <div class="menu-header">
+      <p class="menu-label">✦ 番号から選ぶ ✦</p>
+      <button class="menu-close" id="menuClose">✕</button>
+    </div>
+    <select id="cardSelect" class="card-select">
+      <option value="">— カードを選んでください —</option>
+    </select>
+    <button class="btn-select" id="selectBtn">このカードを見る</button>
+  </nav>
+
+  <!-- メインコンテンツ -->
+
+  <main class="main">
+
+```
+<!-- タイトルヘッダー -->
+<header class="site-header">
+  <p class="site-subtitle">✦ O R A C L E &nbsp; C A R D S ✦</p>
+  <h1 class="site-title">Soul Quest</h1>
+  <p class="site-tagline">魂の旅へ、あなたを導くオラクル</p>
+</header>
+
+<!-- カードを引くボタン -->
+<section class="draw-section">
+  <button class="btn-draw" id="drawBtn">
+    <span class="btn-inner">✨ カードを引く ✨</span>
+  </button>
+</section>
+
+<!-- カード表示エリア -->
+<section class="card-display" id="cardDisplay" style="display:none;">
+
+  <!-- カード番号 -->
+  <p class="card-number" id="cardNumber">00</p>
+
+  <!-- カード画像（フリップ） -->
+  <div class="card-flip-wrap" id="cardFlipWrap">
+    <div class="card-flip-inner" id="cardFlipInner">
+      <div class="card-face card-back">
+        <img src="images/back.png" alt="Card Back" />
+      </div>
+      <div class="card-face card-front">
+        <img class="card-image" id="cardImage" src="" alt="Oracle Card" />
+      </div>
+    </div>
+    <div class="card-glow"></div>
+  </div>
+
+<!-- カードテキスト（フリップ後にフェードイン） -->
+<div id="cardContent">
+
+  <!-- カードタイトル -->
+  <div class="card-titles">
+    <h2 class="card-title-en" id="cardTitleEn">FIND THE PATH</h2>
+    <h3 class="card-title-ja" id="cardTitleJa">道を見つける</h3>
+  </div>
+
+  <!-- 区切り -->
+  <div class="divider">
+    <span class="divider-line"></span>
+    <span class="divider-star">✦</span>
+    <span class="divider-line"></span>
+  </div>
+
+  <!-- アファメーション -->
+  <div class="affirmation-block">
+    <p class="affirmation-label">✦ A f f i r m a t i o n ✦</p>
+    <p class="affirmation-en" id="affirmationEn">I trust my path and walk forward with grace.</p>
+    <p class="affirmation-ja" id="affirmationJa">私は自分の道を信じ、優雅に前へ進む。</p>
+  </div>
+
+  <!-- 区切り -->
+  <div class="divider">
+    <span class="divider-line"></span>
+    <span class="divider-star">✦</span>
+    <span class="divider-line"></span>
+  </div>
+
+  <!-- カード内容 -->
+  <div class="card-message">
+    <p class="message-label">— Soul Message —</p>
+    <p class="message-text" id="cardMessage">
+      ここにカードのメッセージが入ります。あなたの魂はすでに答えを知っています。
+      このカードはその声に耳を傾けるよう促しています。
+      静かな場所で深呼吸をして、このメッセージをそっと受け取ってください。
+    </p>
+  </div>
+
+  <!-- もう一度引くボタン -->
+  <button class="btn-again" id="againBtn">もう一度引く</button>
+
+</div><!-- /cardContent -->
+
+</section>
+```
+
+  </main>
+
+  <!-- フッター -->
+
+  <footer class="site-footer">
+    <p>© 2026 Soul Quest Oracle Cards</p>
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+</html>

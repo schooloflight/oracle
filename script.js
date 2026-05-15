@@ -329,4 +329,6 @@ id: "40",
 titleEn: "SOFTEN AND RECEIVE",
 titleJa: "柔らかく受け取る",
 affirmationEn: "I soften my heart and gracefully receive all blessings.",
-affirmationJa: "私は心を柔らかくし、すべての祝福
+affirmationJa: "私は心を柔らかくし、すべての祝福"
+}
+  

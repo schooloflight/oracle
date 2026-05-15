@@ -333,8 +333,10 @@ affirmationJa: "私は心を柔らかくし、すべての祝福"
 }
   ];
 
-// =========================== // 星パーティクル生成
-// =========================== function createStars() {
+// =========================== 
+// 星パーティクル生成
+// =========================== 
+function createStars() {
   const container = document.getElementById('stars');
   for (let i = 0; i < 60; i++) {
     const star = document.createElement('div');
@@ -351,23 +353,28 @@ affirmationJa: "私は心を柔らかくし、すべての祝福"
     container.appendChild(star);
   }
 }
+
 // ===========================
 // ハンバーガーメニュー
 // ===========================
 const hamburgerBtn = document.getElementById('hamburgerBtn'); const sideMenu = document.getElementById('sideMenu');
 const menuOverlay = document.getElementById('menuOverlay');
 const menuClose = document.getElementById('menuClose');
+
 function openMenu() {
   sideMenu.classList.add('active');
   menuOverlay.classList.add('active');
 }
+
 function closeMenu() {
   sideMenu.classList.remove('active');
   menuOverlay.classList.remove('active');
 }
+
 hamburgerBtn.addEventListener('click', openMenu);
 menuClose.addEventListener('click', closeMenu);
 menuOverlay.addEventListener('click', closeMenu);
+
 // ===========================
 // プルダウン生成(00~43)
 // ===========================
@@ -378,54 +385,89 @@ CARDS.forEach(card => {
   option.textContent = `${card.id}  ${card.titleEn}`;
   cardSelect.appendChild(option);
 });
-// =========================== // カード表示関数(フリップ演出付き) // =========================== function showCard(card) {
+
+// =========================== 
+// カード表示関数(フリップ演出付き) 
+// =========================== 
+function showCard(card) {
 const display = document.getElementById('cardDisplay');
    const flipInner = document.getElementById('cardFlipInner');
   const cardContent = document.getElementById('cardContent');
-// まずフリップをリセット flipInner.classList.remove('flipped');
+  
+// まずフリップをリセット 
+  flipInner.classList.remove('flipped');
+  
 // データをセット
-document.getElementById('cardNumber').textContent = card.id; document.getElementById('cardImage').src = `images/${parseInt(card.id)}.png`; document.getElementById('cardImage').alt = card.titleEn; document.getElementById('cardTitleEn').textContent = card.titleEn; document.getElementById('cardTitleJa').textContent = card.titleJa; document.getElementById('affirmationEn').textContent = card.affirmationEn; document.getElementById('affirmationJa').textContent = card.affirmationJa; document.getElementById('cardMessage').textContent = card.message;
-// カードエリア表示(テキストは非表示で) display.style.display = 'flex'; display.style.animation = 'none'; requestAnimationFrame(() => {
+document.getElementById('cardNumber').textContent = card.id; 
+  document.getElementById('cardImage').src = `images/${parseInt(card.id)}.png`; 
+  document.getElementById('cardImage').alt = card.titleEn; 
+  document.getElementById('cardTitleEn').textContent = card.titleEn; 
+  document.getElementById('cardTitleJa').textContent = card.titleJa; 
+  document.getElementById('affirmationEn').textContent = card.affirmationEn; 
+  document.getElementById('affirmationJa').textContent = card.affirmationJa; 
+  document.getElementById('cardMessage').textContent = card.message;
+  
+// カードエリア表示(テキストは非表示で) 
+  display.style.display = 'flex'; 
+  display.style.animation = 'none'; 
+  requestAnimationFrame(() => {
     display.style.animation = 'fadeUp 0.5s ease forwards';
   });
+  
 // テキストを一旦隠す
-cardContent.style.opacity = '0'; cardContent.style.transform = 'translateY(12px)';
-// スクロール setTimeout(() => {
+cardContent.style.opacity = '0'; 
+  cardContent.style.transform = 'translateY(12px)';
+  
+// スクロール 
+  setTimeout(() => {
     display.scrollIntoView({ behavior: 'smooth', block: 'start' });
   }, 100);
-// 少し待ってからフリップ setTimeout(() => {
+  
+// 少し待ってからフリップ 
+  setTimeout(() => {
     flipInner.classList.add('flipped');
   }, 400);
-// フリップ完了後にテキストをフェードイン setTimeout(() => {
+  
+// フリップ完了後にテキストをフェードイン 
+  setTimeout(() => {
     cardContent.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
     cardContent.style.opacity = '1';
     cardContent.style.transform = 'translateY(0)';
 }, 1100); }
-// =========================== // ランダムにカードを引く
 
- // ===========================
+// =========================== 
+// ランダムにカードを引く
+// ===========================
 document.getElementById('drawBtn').addEventListener('click', () => {
   const randomCard = CARDS[Math.floor(Math.random() * CARDS.length)];
   showCard(randomCard);
 });
+
 // ===========================
 // 番号から選ぶ
-// =========================== document.getElementById('selectBtn').addEventListener('click', () => {
+// =========================== 
+document.getElementById('selectBtn').addEventListener('click', () => {
   const selectedId = cardSelect.value;
   if (!selectedId) {
 alert('カードを選んでください');
-return; }
-  const card = CARDS.find(c => c.id === selectedId);
+return; 
+  }
+const card = CARDS.find(c => c.id === selectedId);
   if (card) {
     showCard(card);
     closeMenu();
   }
 });
+
 // ===========================
 // もう一度引く
-// =========================== document.getElementById('againBtn').addEventListener('click', () => {
+// =========================== 
+document.getElementById('againBtn').addEventListener('click', () => {
   const randomCard = CARDS[Math.floor(Math.random() * CARDS.length)];
   showCard(randomCard);
 });
-// =========================== // 初期化
-// =========================== createStars();
+
+// =========================== 
+// 初期化
+// =========================== 
+createStars();

@@ -363,8 +363,8 @@ message: "すべてには終わりがあり、すべての終わりに新しい�
   function createStars() {
   const container = document.getElementById('stars');
     
-// 丸い粒子(80個)
-for (let i = 0; i < 80; i++) {
+// 丸い粒子(60個)
+for (let i = 0; i < 60; i++) {
     const star = document.createElement('div');
     star.className = 'star';
     const size = Math.random() * 4 + 1.5;
@@ -379,23 +379,23 @@ for (let i = 0; i < 80; i++) {
     container.appendChild(star);
   }
     
-// 十字キラキラ(40個)
-for (let i = 0; i < 40; i++) {
+// 十字キラキラ(20個・小さめ)
+for (let i = 0; i < 20; i++) {
     const sparkle = document.createElement('div');
     sparkle.className = 'sparkle';
-    const size = Math.random() * 14 + 6;
+    const size = Math.random() * 7 + 4;
     sparkle.style.cssText = `
       left: ${Math.random() * 100}%;
       top: ${Math.random() * 100}%;
       --size: ${size}px;
-      --dur: ${Math.random() * 5 + 3}s;
-      --delay: ${Math.random() * 10}s;
+      --dur: ${Math.random() * 6 + 4}s;
+      --delay: ${Math.random() * 12}s;
 `;
     container.appendChild(sparkle);
   }
     
-// 流れ星(8本)
-for (let i = 0; i < 8; i++) {
+// 流れ星(6本)
+for (let i = 0; i < 6; i++) {
     const shooting = document.createElement('div');
     shooting.className = 'shooting-star';
     shooting.style.cssText = `

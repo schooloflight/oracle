@@ -477,7 +477,8 @@ document.getElementById('cardNumber').textContent = card.id;
   document.getElementById('cardMessage').textContent = card.message;
   
 // カードエリア表示(テキストは非表示で) 
-  display.style.display = 'flex'; 
+  display.style.display = 'flex';
+  document.querySelector('.draw-section').style.display = 'none';
   display.style.animation = 'none'; 
   requestAnimationFrame(() => {
     display.style.animation = 'fadeUp 0.5s ease forwards';
@@ -531,6 +532,7 @@ const card = CARDS.find(c => c.id === selectedId);
 // ===========================
 // もう一度引く
 // =========================== 
+document.querySelector('.draw-section').style.display = 'flex';
 document.getElementById('againBtn').addEventListener('click', () => {
   const flipInner = document.getElementById('cardFlipInner');
   const cardContent = document.getElementById('cardContent');

@@ -5,7 +5,7 @@
 
 const CARDS = [
 {
-id: “00”,
+id: “0”,
 titleEn: “BEGIN THE JOURNEY”,
 titleJa: “旅を始める”,
 affirmationEn: “I take the first step with an open heart.”,

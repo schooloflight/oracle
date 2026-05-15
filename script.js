@@ -5,328 +5,328 @@
 
 const CARDS = [
 {
-id: “0”,
-titleEn: “BEGIN THE JOURNEY”,
-titleJa: “旅を始める”,
-affirmationEn: “I take the first step with an open heart.”,
-affirmationJa: “私は開かれた心で最初の一歩を踏み出す。”,
-message: “あなたの魂は新しい旅の始まりを告げています。完璧な準備が整うのを待つ必要はありません。今この瞬間、あなたはすでに十分です。一歩踏み出すその勇気が、道を照らす星になります。”
+id: "00",
+titleEn: "BEGIN THE JOURNEY",
+titleJa: "旅を始める",
+affirmationEn: "I take the first step with an open heart.",
+affirmationJa: "私は開かれた心で最初の一歩を踏み出す。",
+message: "あなたの魂は新しい旅の始まりを告げています。完璧な準備が整うのを待つ必要はありません。今この瞬間、あなたはすでに十分です。一歩踏み出すその勇気が、道を照らす星になります。"
 },
 {
-id: “01”,
-titleEn: “TRUST YOURSELF”,
-titleJa: “自分を信じる”,
-affirmationEn: “I trust my intuition and inner wisdom.”,
-affirmationJa: “私は自分の直感と内なる知恵を信じる。”,
-message: “あなたの内側には、すべての答えがあります。外の世界に答えを求めるより、静かに内なる声に耳を傾けてください。その声はいつもあなたを正しい方向へ導いています。”
+id: "01",
+titleEn: "TRUST YOURSELF",
+titleJa: "自分を信じる",
+affirmationEn: "I trust my intuition and inner wisdom.",
+affirmationJa: "私は自分の直感と内なる知恵を信じる。",
+message: "あなたの内側には、すべての答えがあります。外の世界に答えを求めるより、静かに内なる声に耳を傾けてください。その声はいつもあなたを正しい方向へ導いています。"
 },
 {
-id: “02”,
-titleEn: “OPEN YOUR HEART”,
-titleJa: “心を開く”,
-affirmationEn: “I open my heart to love and infinite possibility.”,
-affirmationJa: “私は愛と無限の可能性に心を開く。”,
-message: “心を開くことは、無防備になることではありません。それは、宇宙からの贈り物を受け取る準備ができたということ。あなたの心の扉を、そっと開いてみてください。”
+id: "02",
+titleEn: "OPEN YOUR HEART",
+titleJa: "心を開く",
+affirmationEn: "I open my heart to love and infinite possibility.",
+affirmationJa: "私は愛と無限の可能性に心を開く。",
+message: "心を開くことは、無防備になることではありません。それは、宇宙からの贈り物を受け取る準備ができたということ。あなたの心の扉を、そっと開いてみてください。"
 },
 {
-id: “03”,
-titleEn: “FIND YOUR PATH”,
-titleJa: “道を見つける”,
-affirmationEn: “I return to my center and find my true path.”,
-affirmationJa: “私は中心に戻り、真の道を見つける。”,
-message: “迷いを感じているとき、それは新しい道が開こうとしているサインです。焦らず、あなたのペースで進んでください。魂はすでに目的地を知っています。”
+id: "03",
+titleEn: "FIND YOUR PATH",
+titleJa: "道を見つける",
+affirmationEn: "I return to my center and find my true path.",
+affirmationJa: "私は中心に戻り、真の道を見つける。",
+message: "迷いを感じているとき、それは新しい道が開こうとしているサインです。焦らず、あなたのペースで進んでください。魂はすでに目的地を知っています。"
 },
 {
-id: “04”,
-titleEn: “EMBRACE CHANGE”,
-titleJa: “変化を受け入れる”,
-affirmationEn: “I welcome change as a sacred gift of growth.”,
-affirmationJa: “私は変化を成長の聖なる贈り物として歓迎する。”,
-message: “変化は終わりではなく、新しい始まりです。手放すことへの恐れを、信頼へと変えてください。宇宙はあなたをより美しい場所へ連れて行こうとしています。”
+id: "04",
+titleEn: "EMBRACE CHANGE",
+titleJa: "変化を受け入れる",
+affirmationEn: "I welcome change as a sacred gift of growth.",
+affirmationJa: "私は変化を成長の聖なる贈り物として歓迎する。",
+message: "変化は終わりではなく、新しい始まりです。手放すことへの恐れを、信頼へと変えてください。宇宙はあなたをより美しい場所へ連れて行こうとしています。"
 },
 {
-id: “05”,
-titleEn: “GROUND YOUR ROOTS”,
-titleJa: “根を張る”,
-affirmationEn: “I am rooted in the earth and open to the sky.”,
-affirmationJa: “私は大地に根ざし、空へと開かれている。”,
-message: “木が高く伸びるためには、深く根を張る必要があります。今は静かに自分の基盤を整える時。安定した土台があるから、あなたは思い切り花を咲かせることができます。”
+id: "05",
+titleEn: "GROUND YOUR ROOTS",
+titleJa: "根を張る",
+affirmationEn: "I am rooted in the earth and open to the sky.",
+affirmationJa: "私は大地に根ざし、空へと開かれている。",
+message: "木が高く伸びるためには、深く根を張る必要があります。今は静かに自分の基盤を整える時。安定した土台があるから、あなたは思い切り花を咲かせることができます。"
 },
 {
-id: “06”,
-titleEn: “RECEIVE ABUNDANCE”,
-titleJa: “豊かさを受け取る”,
-affirmationEn: “I allow abundance to flow freely into my life.”,
-affirmationJa: “私は豊かさが自由に流れ込むことを許す。”,
-message: “豊かさはすでにあなたのもとへ向かっています。受け取ることへの罪悪感を手放してください。あなたが満たされることで、周りの人たちも輝くことができます。”
+id: "06",
+titleEn: "RECEIVE ABUNDANCE",
+titleJa: "豊かさを受け取る",
+affirmationEn: "I allow abundance to flow freely into my life.",
+affirmationJa: "私は豊かさが自由に流れ込むことを許す。",
+message: "豊かさはすでにあなたのもとへ向かっています。受け取ることへの罪悪感を手放してください。あなたが満たされることで、周りの人たちも輝くことができます。"
 },
 {
-id: “07”,
-titleEn: “IGNITE THE FLAME”,
-titleJa: “炎を灯す”,
-affirmationEn: “I ignite the sacred flame of transformation within.”,
-affirmationJa: “私は内なる変容の聖なる炎を灯す。”,
-message: “あなたの中に、消えることのない炎があります。それは情熱であり、創造力であり、魂の核心です。その炎を怖れず、そっと育ててください。”
+id: "07",
+titleEn: "IGNITE THE FLAME",
+titleJa: "炎を灯す",
+affirmationEn: "I ignite the sacred flame of transformation within.",
+affirmationJa: "私は内なる変容の聖なる炎を灯す。",
+message: "あなたの中に、消えることのない炎があります。それは情熱であり、創造力であり、魂の核心です。その炎を怖れず、そっと育ててください。"
 },
 {
-id: “08”,
-titleEn: “WALK YOUR PATH”,
-titleJa: “自分の道を歩む”,
-affirmationEn: “I walk my unique path with confidence and grace.”,
-affirmationJa: “私は自信と優雅さで自分だけの道を歩む。”,
-message: “誰かの道を羨む必要はありません。あなたの道はあなただけのもの。その独自性こそが、この世界であなたが輝ける理由です。”
+id: "08",
+titleEn: "WALK YOUR PATH",
+titleJa: "自分の道を歩む",
+affirmationEn: "I walk my unique path with confidence and grace.",
+affirmationJa: "私は自信と優雅さで自分だけの道を歩む。",
+message: "誰かの道を羨む必要はありません。あなたの道はあなただけのもの。その独自性こそが、この世界であなたが輝ける理由です。"
 },
 {
-id: “09”,
-titleEn: “HEAR THE SILENCE”,
-titleJa: “静寂を聴く”,
-affirmationEn: “In silence, I hear my soul’s gentle voice.”,
-affirmationJa: “静寂の中で、私は魂の優しい声を聴く。”,
-message: “日常の喧騒から離れ、静かな時間を作ってください。沈黙の中にこそ、宇宙からのメッセージが届きます。あなたの魂はいつも、あなたと話したがっています。”
+id: "09",
+titleEn: "HEAR THE SILENCE",
+titleJa: "静寂を聴く",
+affirmationEn: "In silence, I hear my soul’s gentle voice.",
+affirmationJa: "静寂の中で、私は魂の優しい声を聴く。",
+message: "日常の喧騒から離れ、静かな時間を作ってください。沈黙の中にこそ、宇宙からのメッセージが届きます。あなたの魂はいつも、あなたと話したがっています。"
 },
 {
-id: “10”,
-titleEn: “SET YOUR BOUNDARIES”,
-titleJa: “境界線を引く”,
-affirmationEn: “I honor myself and create loving boundaries.”,
-affirmationJa: “私は自分を大切にし、愛ある境界線を作る。”,
-message: “境界線は壁ではなく、自分を愛するための形です。「ノー」と言える勇気が、あなたをより深く人と繋がれる存在にします。”
+id: "10",
+titleEn: "SET YOUR BOUNDARIES",
+titleJa: "境界線を引く",
+affirmationEn: "I honor myself and create loving boundaries.",
+affirmationJa: "私は自分を大切にし、愛ある境界線を作る。",
+message: "境界線は壁ではなく、自分を愛するための形です。「ノー」と言える勇気が、あなたをより深く人と繋がれる存在にします。"
 },
 {
-id: “11”,
-titleEn: “DOWNLOAD THE VISION”,
-titleJa: “ビジョンを受け取る”,
-affirmationEn: “I download divine wisdom and inspired vision.”,
-affirmationJa: “私は神聖な知恵とインスピレーションを受け取る。”,
-message: “あなたの夢やビジョンは、宇宙からのギフトです。それが今は荒唐無稽に見えても、魂はその可能性を知っています。まずは信じることから始めましょう。”
+id: "11",
+titleEn: "DOWNLOAD THE VISION",
+titleJa: "ビジョンを受け取る",
+affirmationEn: "I download divine wisdom and inspired vision.",
+affirmationJa: "私は神聖な知恵とインスピレーションを受け取る。",
+message: "あなたの夢やビジョンは、宇宙からのギフトです。それが今は荒唐無稽に見えても、魂はその可能性を知っています。まずは信じることから始めましょう。"
 },
 {
-id: “12”,
-titleEn: “RISE AS PHOENIX”,
-titleJa: “フェニックスとして蘇る”,
-affirmationEn: “I rise from the ashes renewed and stronger.”,
-affirmationJa: “私は灰の中から再生し、より強くなって蘇る。”,
-message: “終わりだと思っていたものが、実は新しい始まりでした。あなたはもう一度、美しく蘇ることができます。その再生の力はあなたの中にすでにあります。”
+id: "12",
+titleEn: "RISE AS PHOENIX",
+titleJa: "フェニックスとして蘇る",
+affirmationEn: "I rise from the ashes renewed and stronger.",
+affirmationJa: "私は灰の中から再生し、より強くなって蘇る。",
+message: "終わりだと思っていたものが、実は新しい始まりでした。あなたはもう一度、美しく蘇ることができます。その再生の力はあなたの中にすでにあります。"
 },
 {
-id: “13”,
-titleEn: “ENTER THE TEMPLE”,
-titleJa: “神殿に入る”,
-affirmationEn: “I step into the sacred temple of my soul.”,
-affirmationJa: “私は魂の聖なる神殿へと足を踏み入れる。”,
-message: “あなた自身が聖なる場所です。自分の内側に宿る神聖さを、今日から認めてください。瞑想や静かな時間が、その扉を開く鍵となります。”
+id: "13",
+titleEn: "ENTER THE TEMPLE",
+titleJa: "神殿に入る",
+affirmationEn: "I step into the sacred temple of my soul.",
+affirmationJa: "私は魂の聖なる神殿へと足を踏み入れる。",
+message: "あなた自身が聖なる場所です。自分の内側に宿る神聖さを、今日から認めてください。瞑想や静かな時間が、その扉を開く鍵となります。"
 },
 {
-id: “14”,
-titleEn: “CALL YOUR GUARDIAN”,
-titleJa: “守護者を呼ぶ”,
-affirmationEn: “I allow myself to be supported by unseen guides.”,
-affirmationJa: “私は見えない存在の導きとサポートを受け取る。”,
-message: “あなたはひとりではありません。目に見えない存在たちが、常にあなたを見守っています。助けを求めることは弱さではなく、知恵です。”
+id: "14",
+titleEn: "CALL YOUR GUARDIAN",
+titleJa: "守護者を呼ぶ",
+affirmationEn: "I allow myself to be supported by unseen guides.",
+affirmationJa: "私は見えない存在の導きとサポートを受け取る。",
+message: "あなたはひとりではありません。目に見えない存在たちが、常にあなたを見守っています。助けを求めることは弱さではなく、知恵です。"
 },
 {
-id: “15”,
-titleEn: “HARP OF THE STARS”,
-titleJa: “星々のハープ”,
-affirmationEn: “I am in harmony with the universe and all that is.”,
-affirmationJa: “私は宇宙と全存在と調和している。”,
-message: “あなたの存在そのものが、宇宙の音楽の一部です。今感じている不調和も、より大きな調和のプロセス。すべてはうまくいっています。”
+id: "15",
+titleEn: "HARP OF THE STARS",
+titleJa: "星々のハープ",
+affirmationEn: "I am in harmony with the universe and all that is.",
+affirmationJa: "私は宇宙と全存在と調和している。",
+message: "あなたの存在そのものが、宇宙の音楽の一部です。今感じている不調和も、より大きな調和のプロセス。すべてはうまくいっています。"
 },
 {
-id: “16”,
-titleEn: “HONOR YOUR GIFTS”,
-titleJa: “才能を讃える”,
-affirmationEn: “I honor and share the gifts I came here to give.”,
-affirmationJa: “私はここに持ってきた才能を讃え、分かち合う。”,
-message: “あなたが当たり前だと思っていることが、誰かにとっては奇跡かもしれません。あなたの才能を世界と分かち合う時が来ています。”
+id: "16",
+titleEn: "HONOR YOUR GIFTS",
+titleJa: "才能を讃える",
+affirmationEn: "I honor and share the gifts I came here to give.",
+affirmationJa: "私はここに持ってきた才能を讃え、分かち合う。",
+message: "あなたが当たり前だと思っていることが、誰かにとっては奇跡かもしれません。あなたの才能を世界と分かち合う時が来ています。"
 },
 {
-id: “17”,
-titleEn: “STAND IN YOUR TRUTH”,
-titleJa: “真実の中に立つ”,
-affirmationEn: “I stand fully in my truth with love and clarity.”,
-affirmationJa: “私は愛と明晰さの中で真実に完全に立つ。”,
-message: “あなたの真実は、あなただけのものです。周りの期待より、自分の魂の声を信じてください。本当の自分でいることが、最も美しい生き方です。”
+id: "17",
+titleEn: "STAND IN YOUR TRUTH",
+titleJa: "真実の中に立つ",
+affirmationEn: "I stand fully in my truth with love and clarity.",
+affirmationJa: "私は愛と明晰さの中で真実に完全に立つ。",
+message: "あなたの真実は、あなただけのものです。周りの期待より、自分の魂の声を信じてください。本当の自分でいることが、最も美しい生き方です。"
 },
 {
-id: “18”,
-titleEn: “RELEASE AND FLOW”,
-titleJa: “手放して流れる”,
-affirmationEn: “I release what no longer serves me and flow freely.”,
-affirmationJa: “私はもう必要のないものを手放し、自由に流れる。”,
-message: “手放すことへの恐れがありますか？でも、川は岩を掴み続けることで前に進めません。手放すことで、あなたは本当に自由になれます。”
+id: "18",
+titleEn: "RELEASE AND FLOW",
+titleJa: "手放して流れる",
+affirmationEn: "I release what no longer serves me and flow freely.",
+affirmationJa: "私はもう必要のないものを手放し、自由に流れる。",
+message: "手放すことへの恐れがありますか？でも、川は岩を掴み続けることで前に進めません。手放すことで、あなたは本当に自由になれます。"
 },
 {
-id: “19”,
-titleEn: “WEAVE YOUR DREAM”,
-titleJa: “夢を紡ぐ”,
-affirmationEn: “I weave my dreams into beautiful reality.”,
-affirmationJa: “私は夢を美しい現実へと紡いでいく。”,
-message: “夢を持つことは、未来への祈りです。その夢を大切に、毎日少しずつ形にしていきましょう。あなたの夢は、現実になる力を持っています。”
+id: "19",
+titleEn: "WEAVE YOUR DREAM",
+titleJa: "夢を紡ぐ",
+affirmationEn: "I weave my dreams into beautiful reality.",
+affirmationJa: "私は夢を美しい現実へと紡いでいく。",
+message: "夢を持つことは、未来への祈りです。その夢を大切に、毎日少しずつ形にしていきましょう。あなたの夢は、現実になる力を持っています。"
 },
 {
-id: “20”,
-titleEn: “CONNECT WITH NATURE”,
-titleJa: “自然と繋がる”,
-affirmationEn: “I am one with nature and all living beings.”,
-affirmationJa: “私は自然とすべての生きものと一つになる。”,
-message: “自然はあなたの最も古い友人です。木々、水、風の声に耳を傾けてください。地球はあなたをいつも、温かく迎え入れています。”
+id: "20",
+titleEn: "CONNECT WITH NATURE",
+titleJa: "自然と繋がる",
+affirmationEn: "I am one with nature and all living beings.",
+affirmationJa: "私は自然とすべての生きものと一つになる。",
+message: "自然はあなたの最も古い友人です。木々、水、風の声に耳を傾けてください。地球はあなたをいつも、温かく迎え入れています。"
 },
 {
-id: “21”,
-titleEn: “ILLUMINATE YOUR SHADOW”,
-titleJa: “影を照らす”,
-affirmationEn: “I embrace all parts of myself with gentle compassion.”,
-affirmationJa: “私はすべての自分の部分を優しい慈愛で抱きしめる。”,
-message: “影は光があるからこそ生まれます。自分の影の部分を否定せず、好奇心を持って向き合ってください。そこにこそ、あなたの最大の宝が眠っています。”
+id: "21",
+titleEn: "ILLUMINATE YOUR SHADOW",
+titleJa: "影を照らす",
+affirmationEn: "I embrace all parts of myself with gentle compassion.",
+affirmationJa: "私はすべての自分の部分を優しい慈愛で抱きしめる。",
+message: "影は光があるからこそ生まれます。自分の影の部分を否定せず、好奇心を持って向き合ってください。そこにこそ、あなたの最大の宝が眠っています。"
 },
 {
-id: “22”,
-titleEn: “AWAKEN YOUR SENSES”,
-titleJa: “感覚を目覚めさせる”,
-affirmationEn: “I am fully awake, present, and alive in this moment.”,
-affirmationJa: “私は今この瞬間に完全に目覚め、存在している。”,
-message: “今、この瞬間の美しさに気づいていますか？五感を全開にして、今ここにある命の豊かさを感じてください。”
+id: "22",
+titleEn: "AWAKEN YOUR SENSES",
+titleJa: "感覚を目覚めさせる",
+affirmationEn: "I am fully awake, present, and alive in this moment.",
+affirmationJa: "私は今この瞬間に完全に目覚め、存在している。",
+message: "今、この瞬間の美しさに気づいていますか？五感を全開にして、今ここにある命の豊かさを感じてください。"
 },
 {
-id: “23”,
-titleEn: “CRYSTAL CLARITY”,
-titleJa: “クリスタルの明晰さ”,
-affirmationEn: “My mind and heart are clear as crystal.”,
-affirmationJa: “私の心と魂はクリスタルのように澄み渡っている。”,
-message: “混乱の中にも、クリスタルのような純粋な核心があります。静かに内側を見つめると、答えは驚くほど明確に見えてきます。”
+id: "23",
+titleEn: "CRYSTAL CLARITY",
+titleJa: "クリスタルの明晰さ",
+affirmationEn: "My mind and heart are clear as crystal.",
+affirmationJa: "私の心と魂はクリスタルのように澄み渡っている。",
+message: "混乱の中にも、クリスタルのような純粋な核心があります。静かに内側を見つめると、答えは驚くほど明確に見えてきます。"
 },
 {
-id: “24”,
-titleEn: “DANCE WITH JOY”,
-titleJa: “喜びと踊る”,
-affirmationEn: “I allow joy to move through me freely and fully.”,
-affirmationJa: “私は喜びが自由に私の中を流れることを許す。”,
-message: “喜びはあなたの魂の本来の状態です。日常の小さな喜びを見逃さないでください。喜びを選ぶことは、宇宙への感謝の表れです。”
+id: "24",
+titleEn: "DANCE WITH JOY",
+titleJa: "喜びと踊る",
+affirmationEn: "I allow joy to move through me freely and fully.",
+affirmationJa: "私は喜びが自由に私の中を流れることを許す。",
+message: "喜びはあなたの魂の本来の状態です。日常の小さな喜びを見逃さないでください。喜びを選ぶことは、宇宙への感謝の表れです。"
 },
 {
-id: “25”,
-titleEn: “PLANT YOUR SEEDS”,
-titleJa: “種を蒔く”,
-affirmationEn: “I plant seeds of intention with love and patience.”,
-affirmationJa: “私は愛と忍耐で意図の種を蒔く。”,
-message: “今は見えなくても、あなたが蒔いた種は確かに育っています。結果を焦らず、愛情を持って育て続けてください。”
+id: "25",
+titleEn: "PLANT YOUR SEEDS",
+titleJa: "種を蒔く",
+affirmationEn: "I plant seeds of intention with love and patience.",
+affirmationJa: "私は愛と忍耐で意図の種を蒔く。",
+message: "今は見えなくても、あなたが蒔いた種は確かに育っています。結果を焦らず、愛情を持って育て続けてください。"
 },
 {
-id: “26”,
-titleEn: “HONOR YOUR BODY”,
-titleJa: “身体を讃える”,
-affirmationEn: “I cherish my body as the sacred home of my soul.”,
-affirmationJa: “私は身体を魂の聖なる家として大切にする。”,
-message: “あなたの体は、この世界で魂が宿る神聖な場所。体の声に耳を傾け、必要な休息と栄養を与えてください。”
+id: "26",
+titleEn: "HONOR YOUR BODY",
+titleJa: "身体を讃える",
+affirmationEn: "I cherish my body as the sacred home of my soul.",
+affirmationJa: "私は身体を魂の聖なる家として大切にする。",
+message: "あなたの体は、この世界で魂が宿る神聖な場所。体の声に耳を傾け、必要な休息と栄養を与えてください。"
 },
 {
-id: “27”,
-titleEn: “FLOW WITH GRACE”,
-titleJa: “優雅に流れる”,
-affirmationEn: “I move through life with ease, flow, and grace.”,
-affirmationJa: “私は人生をやすらぎと流れと優雅さで歩む。”,
-message: “無理に押し進もうとすると、かえって遠回りになることがあります。川の流れのように、自然な流れに乗ってみましょう。”
+id: "27",
+titleEn: "FLOW WITH GRACE",
+titleJa: "優雅に流れる",
+affirmationEn: "I move through life with ease, flow, and grace.",
+affirmationJa: "私は人生をやすらぎと流れと優雅さで歩む。",
+message: "無理に押し進もうとすると、かえって遠回りになることがあります。川の流れのように、自然な流れに乗ってみましょう。"
 },
 {
-id: “28”,
-titleEn: “OPEN THE GATEWAY”,
-titleJa: “門を開く”,
-affirmationEn: “I open the gateway to new possibilities and dimensions.”,
-affirmationJa: “私は新しい可能性と次元への門を開く。”,
-message: “目の前の扉が重く感じても、その先には想像を超えた世界が待っています。恐れではなく好奇心を持って、扉を開いてみてください。”
+id: "28",
+titleEn: "OPEN THE GATEWAY",
+titleJa: "門を開く",
+affirmationEn: "I open the gateway to new possibilities and dimensions.",
+affirmationJa: "私は新しい可能性と次元への門を開く。",
+message: "目の前の扉が重く感じても、その先には想像を超えた世界が待っています。恐れではなく好奇心を持って、扉を開いてみてください。"
 },
 {
-id: “29”,
-titleEn: “FEEL YOUR FEELINGS”,
-titleJa: “感情を感じる”,
-affirmationEn: “I honor my emotions as sacred messengers of my soul.”,
-affirmationJa: “私は感情を魂の聖なるメッセンジャーとして大切にする。”,
-message: “感情を押し込める必要はありません。感情はあなたの魂からのメッセージ。その感情が何を伝えようとしているのか、優しく聞いてみてください。”
+id: "29",
+titleEn: "FEEL YOUR FEELINGS",
+titleJa: "感情を感じる",
+affirmationEn: "I honor my emotions as sacred messengers of my soul.",
+affirmationJa: "私は感情を魂の聖なるメッセンジャーとして大切にする。",
+message: "感情を押し込める必要はありません。感情はあなたの魂からのメッセージ。その感情が何を伝えようとしているのか、優しく聞いてみてください。"
 },
 {
-id: “30”,
-titleEn: “REMEMBER YOUR ORIGIN”,
-titleJa: “起源を思い出す”,
-affirmationEn: “I remember who I truly am beyond time and space.”,
-affirmationJa: “私は時間と空間を超えた真の自分を思い出す。”,
-message: “あなたは偶然ここにいるのではありません。深い意図と愛の中でここに来ました。あなたの本当の姿と使命を、今ゆっくり思い出してください。”
+id: "30",
+titleEn: "REMEMBER YOUR ORIGIN",
+titleJa: "起源を思い出す",
+affirmationEn: "I remember who I truly am beyond time and space.",
+affirmationJa: "私は時間と空間を超えた真の自分を思い出す。",
+message: "あなたは偶然ここにいるのではありません。深い意図と愛の中でここに来ました。あなたの本当の姿と使命を、今ゆっくり思い出してください。"
 },
 {
-id: “31”,
-titleEn: “SPEAK YOUR TRUTH”,
-titleJa: “真実を語る”,
-affirmationEn: “I express my truth with clarity, love, and courage.”,
-affirmationJa: “私は明晰さと愛と勇気で真実を語る。”,
-message: “あなたの言葉には力があります。心の中にある言葉を、勇気を持って声に出してください。あなたの声は世界を変える力を持っています。”
+id: "31",
+titleEn: "SPEAK YOUR TRUTH",
+titleJa: "真実を語る",
+affirmationEn: "I express my truth with clarity, love, and courage.",
+affirmationJa: "私は明晰さと愛と勇気で真実を語る。",
+message: "あなたの言葉には力があります。心の中にある言葉を、勇気を持って声に出してください。あなたの声は世界を変える力を持っています。"
 },
 {
-id: “32”,
-titleEn: “NURTURE YOUR SOUL”,
-titleJa: “魂を育てる”,
-affirmationEn: “I lovingly nurture my soul with care and tenderness.”,
-affirmationJa: “私は愛を持って魂を優しく丁寧に育てる。”,
-message: “自分自身への愛情を忘れていませんか？魂を育てることは、自分をケアすること。今日、自分に優しくする時間を作ってください。”
+id: "32",
+titleEn: "NURTURE YOUR SOUL",
+titleJa: "魂を育てる",
+affirmationEn: "I lovingly nurture my soul with care and tenderness.",
+affirmationJa: "私は愛を持って魂を優しく丁寧に育てる。",
+message: "自分自身への愛情を忘れていませんか？魂を育てることは、自分をケアすること。今日、自分に優しくする時間を作ってください。"
 },
 {
-id: “33”,
-titleEn: “SEEK THE SACRED”,
-titleJa: “神聖さを求める”,
-affirmationEn: “I find the sacred in every moment and every breath.”,
-affirmationJa: “私はすべての瞬間と呼吸の中に神聖さを見出す。”,
-message: “神聖さは特別な場所にだけあるのではありません。日常のすべての瞬間に、聖なるものが宿っています。”
+id: "33",
+titleEn: "SEEK THE SACRED",
+titleJa: "神聖さを求める",
+affirmationEn: "I find the sacred in every moment and every breath.",
+affirmationJa: "私はすべての瞬間と呼吸の中に神聖さを見出す。",
+message: "神聖さは特別な場所にだけあるのではありません。日常のすべての瞬間に、聖なるものが宿っています。"
 },
 {
-id: “34”,
-titleEn: “WEAVE WITH STARS”,
-titleJa: “星と共に紡ぐ”,
-affirmationEn: “I am woven from starlight and ancient love.”,
-affirmationJa: “私は星の光と古い愛から紡がれている。”,
-message: “あなたの細胞には宇宙の歴史が刻まれています。星から来て、星へ帰る存在として、今ここでの輝きを信じてください。”
+id: "34",
+titleEn: "WEAVE WITH STARS",
+titleJa: "星と共に紡ぐ",
+affirmationEn: "I am woven from starlight and ancient love.",
+affirmationJa: "私は星の光と古い愛から紡がれている。",
+message: "あなたの細胞には宇宙の歴史が刻まれています。星から来て、星へ帰る存在として、今ここでの輝きを信じてください。"
 },
 {
-id: “35”,
-titleEn: “BUILD YOUR SANCTUARY”,
-titleJa: “聖域を作る”,
-affirmationEn: “I create a sacred sanctuary of peace within myself.”,
-affirmationJa: “私は内側に平和の聖域を作る。”,
-message: “外の世界がどんなに騒がしくても、あなたの内側には静かな聖域があります。そこへいつでも戻れることを覚えておいてください。”
+id: "35",
+titleEn: "BUILD YOUR SANCTUARY",
+titleJa: "聖域を作る",
+affirmationEn: "I create a sacred sanctuary of peace within myself.",
+affirmationJa: "私は内側に平和の聖域を作る。",
+message: "外の世界がどんなに騒がしくても、あなたの内側には静かな聖域があります。そこへいつでも戻れることを覚えておいてください。"
 },
 {
-id: “36”,
-titleEn: “LEAP INTO FAITH”,
-titleJa: “信頼の中へ跳ぶ”,
-affirmationEn: “I leap forward in faith, knowing I am always held.”,
-affirmationJa: “私はいつも守られていると知りながら信頼の中へ跳ぶ。”,
-message: “見えない橋を信じて一歩踏み出す時、足元に橋が現れることがあります。今がその時かもしれません。”
+id: "36",
+titleEn: "LEAP INTO FAITH",
+titleJa: "信頼の中へ跳ぶ",
+affirmationEn: "I leap forward in faith, knowing I am always held.",
+affirmationJa: "私はいつも守られていると知りながら信頼の中へ跳ぶ。",
+message: "見えない橋を信じて一歩踏み出す時、足元に橋が現れることがあります。今がその時かもしれません。"
 },
 {
-id: “37”,
-titleEn: “UNCOVER THE HIDDEN”,
-titleJa: “隠されたものを明かす”,
-affirmationEn: “I unveil the ancient wisdom hidden within me.”,
-affirmationJa: “私は内側に隠された古代の知恵を明らかにする。”,
-message: “あなたはすでに多くを知っています。意識の表層より深い場所に、膨大な知恵が眠っています。直感というその扉を、信じて開いてください。”
+id: "37",
+titleEn: "UNCOVER THE HIDDEN",
+titleJa: "隠されたものを明かす",
+affirmationEn: "I unveil the ancient wisdom hidden within me.",
+affirmationJa: "私は内側に隠された古代の知恵を明らかにする。",
+message: "あなたはすでに多くを知っています。意識の表層より深い場所に、膨大な知恵が眠っています。直感というその扉を、信じて開いてください。"
 },
 {
-id: “38”,
-titleEn: “RETURN TO LOVE”,
-titleJa: “愛に戻る”,
-affirmationEn: “I always return to love as my natural home.”,
-affirmationJa: “私は愛を自然な家として、いつもそこへ戻る。”,
-message: “迷いや恐れを感じた時、愛へ戻ることを思い出してください。愛こそがあなたの本来の場所であり、すべての答えがある場所です。”
+id: "38",
+titleEn: "RETURN TO LOVE",
+titleJa: "愛に戻る",
+affirmationEn: "I always return to love as my natural home.",
+affirmationJa: "私は愛を自然な家として、いつもそこへ戻る。",
+message: "迷いや恐れを感じた時、愛へ戻ることを思い出してください。愛こそがあなたの本来の場所であり、すべての答えがある場所です。"
 },
 {
-id: “39”,
-titleEn: “IGNITE YOUR PASSION”,
-titleJa: “情熱を燃やす”,
-affirmationEn: “I ignite my passion and let it light the way.”,
-affirmationJa: “私は情熱に火を灯し、それを道の光にする。”,
-message: “何があなたをときめかせますか？その感覚を大切にしてください。情熱はあなたの魂が「これだ！」と言っているサインです。”
+id: "39",
+titleEn: "IGNITE YOUR PASSION",
+titleJa: "情熱を燃やす",
+affirmationEn: "I ignite my passion and let it light the way.",
+affirmationJa: "私は情熱に火を灯し、それを道の光にする。",
+message: "何があなたをときめかせますか？その感覚を大切にしてください。情熱はあなたの魂が「これだ！」と言っているサインです。"
 },
 {
-id: “40”,
-titleEn: “SOFTEN AND RECEIVE”,
-titleJa: “柔らかく受け取る”,
-affirmationEn: “I soften my heart and gracefully receive all blessings.”,
-affirmationJa: “私は心を柔らかくし、すべての祝福
+id: "40",
+titleEn: "SOFTEN AND RECEIVE",
+titleJa: "柔らかく受け取る",
+affirmationEn: "I soften my heart and gracefully receive all blessings.",
+affirmationJa: "私は心を柔らかくし、すべての祝福

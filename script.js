@@ -363,11 +363,11 @@ message: "すべてには終わりがあり、すべての終わりに新しい�
   function createStars() {
   const container = document.getElementById('stars');
     
-// 丸い粒子(60個)
-for (let i = 0; i < 60; i++) {
+// 丸い粒子(40個)
+for (let i = 0; i < 40; i++) {
     const star = document.createElement('div');
     star.className = 'star';
-    const size = Math.random() * 4 + 1.5;
+    const size = Math.random() * 3 + 1.5;
     star.style.cssText = `
     left: ${Math.random() * 100}%;
            top: ${Math.random() * 100}%;
@@ -394,8 +394,8 @@ for (let i = 0; i < 20; i++) {
     container.appendChild(sparkle);
   }
     
-// 流れ星(6本)
-for (let i = 0; i < 6; i++) {
+// 流れ星(4本)
+for (let i = 0; i < 4; i++) {
     const shooting = document.createElement('div');
     shooting.className = 'shooting-star';
     shooting.style.cssText = `

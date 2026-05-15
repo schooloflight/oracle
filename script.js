@@ -329,30 +329,87 @@ id: "40",
 titleEn: "SOFTEN AND RECEIVE",
 titleJa: "柔らかく受け取る",
 affirmationEn: "I soften my heart and gracefully receive all blessings.",
-affirmationJa: "私は心を柔らかくし、すべての祝福"
+affirmationJa: "私は心を柔らかくし、すべての祝福を優雅に受け取る。",
+message: "受け取ることは、宇宙の流れを信頼することです。今日は力を抜いて、やってくるものをそっと受け取ってみてください。"
+},
+{
+id: "41",
+titleEn: "CONNECT YOUR SOULS",
+titleJa: "魂と繋がる",
+affirmationEn: "I attract and nurture deep, soulful connections.",
+affirmationJa: "私は深い魂レベルの繋がりを引き寄せ、育てる。",
+message: "魂の深い部分で繋がれる人との出会いは、宇宙からの贈り物です。本当の自分を見せることがそのような縁を引き寄せます。",
+},
+{
+id: "42",
+titleEn: "EXPAND YOUR VISION",
+titleJa: "ビジョンを広げる",
+affirmationEn: "I expand my vision beyond what I can currently see.", affirmationJa: "私は今見えている以上にビジョンを広げる。",
+message: "今見えている景色が、すべてではありません。一歩高い場所に立つと、まったく違う世界が広がっていきます。あなたの可能性は、あなたが思う以上に広大です。",
+},
+{
+id: "43",
+titleEn: "COMPLETE THE CYCLE",
+titleJa: "循環を完成させる",
+affirmationEn: "I honor the sacred cycles of endings and beginnings.", affirmationJa: "私は終わりと始まりの聖なる循環を讃える。",
+message: "すべてには終わりがあり、すべての終わりに新しい始まりが宿っています。今あなたが経験していることも、大きな循環の一部。信頼して、次の章へ進みましょう。",
 }
-  ];
+  
+];
 
 // =========================== 
-// 星パーティクル生成
+// キラキラパーティクル生成
 // =========================== 
-function createStars() {
+  function createStars() {
   const container = document.getElementById('stars');
-  for (let i = 0; i < 60; i++) {
+    
+// 丸い粒子(80個)
+for (let i = 0; i < 80; i++) {
     const star = document.createElement('div');
     star.className = 'star';
-    const size = Math.random() * 3 + 1;
+    const size = Math.random() * 4 + 1.5;
     star.style.cssText = `
-      left: ${Math.random() * 100}%;
-      top: ${Math.random() * 100}%;
+    left: ${Math.random() * 100}%;
+           top: ${Math.random() * 100}%;
       width: ${size}px;
-       height: ${size}px;
+      height: ${size}px;
       --dur: ${Math.random() * 4 + 2}s;
-      --delay: ${Math.random() * 5}s;
+      --delay: ${Math.random() * 8}s;
 `;
     container.appendChild(star);
   }
+    
+// 十字キラキラ(40個)
+for (let i = 0; i < 40; i++) {
+    const sparkle = document.createElement('div');
+    sparkle.className = 'sparkle';
+    const size = Math.random() * 14 + 6;
+    sparkle.style.cssText = `
+      left: ${Math.random() * 100}%;
+      top: ${Math.random() * 100}%;
+      --size: ${size}px;
+      --dur: ${Math.random() * 5 + 3}s;
+      --delay: ${Math.random() * 10}s;
+`;
+    container.appendChild(sparkle);
+  }
+    
+// 流れ星(8本)
+for (let i = 0; i < 8; i++) {
+    const shooting = document.createElement('div');
+    shooting.className = 'shooting-star';
+    shooting.style.cssText = `
+      left: ${Math.random() * 80}%;
+      top: ${Math.random() * 60}%;
+      --len: ${Math.random() * 60 + 40}px;
+      --dur: ${Math.random() * 6 + 5}s;
+      --delay: ${Math.random() * 12}s;
+      --angle: ${Math.random() * -40 - 10}deg;
+`;
+    container.appendChild(shooting);
+  }
 }
+
 
 // ===========================
 // ハンバーガーメニュー
@@ -426,14 +483,14 @@ cardContent.style.opacity = '0';
 // 少し待ってからフリップ 
   setTimeout(() => {
     flipInner.classList.add('flipped');
-  }, 400);
+  }, 700);
   
 // フリップ完了後にテキストをフェードイン 
   setTimeout(() => {
-    cardContent.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+    cardContent.style.transition = 'opacity 0.8s ease, transform 0.8s ease';
     cardContent.style.opacity = '1';
     cardContent.style.transform = 'translateY(0)';
-}, 1100); }
+}, 2000); }
 
 // =========================== 
 // ランダムにカードを引く

@@ -457,51 +457,46 @@ CARDS.forEach(card => {
 // カード表示関数(フリップ演出付き) 
 // =========================== 
 function showCard(card) {
-const display = document.getElementById('cardDisplay');
-   const flipInner = document.getElementById('cardFlipInner');
+  const display = document.getElementById('cardDisplay');
+  const flipInner = document.getElementById('cardFlipInner');
   const cardContent = document.getElementById('cardContent');
-  
-// まずフリップをリセット 
-  flipInner.classList.remove('flipped');
-  
-// データをセット
-document.getElementById('cardNumber').textContent = card.id; 
-  document.getElementById('cardImage').src = `images/${parseInt(card.id)}.png`; 
-  document.getElementById('cardImage').alt = card.titleEn; 
-  document.getElementById('cardTitleEn').textContent = card.titleEn; 
-  document.getElementById('cardTitleJa').textContent = card.titleJa; 
-  document.getElementById('affirmationEn').textContent = card.affirmationEn; 
-  document.getElementById('affirmationJa').textContent = card.affirmationJa; 
-  document.getElementById('cardMessage').textContent = card.message;
-  
-// カードエリア表示(テキストは非表示で) 
-  display.style.display = 'flex';
-  document.querySelector('.draw-section').style.display = 'none';
-  display.style.animation = 'none'; 
-  requestAnimationFrame(() => {
-    display.style.animation = 'fadeUp 0.5s ease forwards';
-  });
-  
-// テキストを一旦隠す
-cardContent.style.opacity = '0'; 
+
+  // テキストを隠す
+  cardContent.style.transition = 'none';
+  cardContent.style.opacity = '0';
   cardContent.style.transform = 'translateY(12px)';
-  
-// スクロール 
+
+  // データをセット
+  document.getElementById('cardNumber').textContent = card.id;
+  document.getElementById('cardImage').src = `images/${parseInt(card.id)}.png`;
+  document.getElementById('cardImage').alt = card.titleEn;
+  document.getElementById('cardTitleEn').textContent = card.titleEn;
+  document.getElementById('cardTitleJa').textContent = card.titleJa;
+  document.getElementById('affirmationEn').textContent = card.affirmationEn;
+  document.getElementById('affirmationJa').textContent = card.affirmationJa;
+  document.getElementById('cardMessage').textContent = card.message;
+
+  // カードエリア表示
+  display.style.display = 'flex';
+
+  // スクロール
   setTimeout(() => {
     display.scrollIntoView({ behavior: 'smooth', block: 'start' });
   }, 100);
-  
-// 少し待ってからフリップ 
+
+  // フリップ
   setTimeout(() => {
     flipInner.classList.add('flipped');
   }, 700);
-  
-// フリップ完了後にテキストをフェードイン 
+
+  // テキストフェードイン
   setTimeout(() => {
     cardContent.style.transition = 'opacity 0.8s ease, transform 0.8s ease';
     cardContent.style.opacity = '1';
     cardContent.style.transform = 'translateY(0)';
-}, 2000); }
+  }, 2000);
+}
+
 
 // =========================== 
 // ランダムにカードを引く

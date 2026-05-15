@@ -50,6 +50,7 @@ body {
 }
 
 /* 星 */
+/* 
 .star {
   position: absolute;
   border-radius: 50%;
@@ -57,6 +58,15 @@ body {
   animation: twinkle var(--dur, 3s) ease-in-out infinite var(--delay, 0s);
   opacity: 0;
   box-shadow: 0 0 4px 1px rgba(212,168,83,0.6), 0 0 8px 2px rgba(212,168,83,0.3);
+}
+*/
+
+.star {
+  position: absolute;
+  border-radius: 50%;
+  background: var(--gold-light);
+  animation: twinkle var(--dur, 3s) ease-in-out infinite var(--delay, 0s);
+  opacity: 0;
 }
 
 /* 煌めき */
@@ -102,13 +112,12 @@ body {
   border-radius: 2px;
   animation: shoot var(--dur, 6s) ease-in-out infinite var(--delay, 0s);
   opacity: 0;
-  transform: rotate(var(--angle, -30deg));
+  transform: rotate(var(--angle, 35deg));
 }
 
 @keyframes twinkle {
-  0%, 100% { opacity: 0; transform: scale(0.3); }
-  30%, 70% { opacity: 0.9; transform: scale(1); }
-  50% { opacity: 1; transform: scale(1.2); }
+  0%, 100% { opacity: 0; transform: scale(0.5); }
+  50% { opacity: 0.7; transform: scale(1); }
 }
 
 @keyframes sparklePop {

@@ -373,27 +373,27 @@ message: "すべてには終わりがあり、すべての終わりに新しい�
 // =========================== 
 // キラキラパーティクル生成
 // =========================== 
-  function createStars() {
+function createStars() {
   const container = document.getElementById('stars');
-    
-// 丸い粒子(40個)
-for (let i = 0; i < 40; i++) {
+
+  // 丸い粒子（50個）
+  for (let i = 0; i < 50; i++) {
     const star = document.createElement('div');
     star.className = 'star';
     const size = Math.random() * 2 + 1;
     star.style.cssText = `
-    left: ${Math.random() * 100}%;
-           top: ${Math.random() * 100}%;
+      left: ${Math.random() * 100}%;
+      top: ${Math.random() * 100}%;
       width: ${size}px;
       height: ${size}px;
       --dur: ${Math.random() * 4 + 2}s;
       --delay: ${Math.random() * 8}s;
-`;
+    `;
     container.appendChild(star);
   }
-    
-// 十字キラキラ(20個・小さめ)
-for (let i = 0; i < 20; i++) {
+
+  // 十字キラキラ（20個）
+  for (let i = 0; i < 20; i++) {
     const sparkle = document.createElement('div');
     sparkle.className = 'sparkle';
     const size = Math.random() * 7 + 4;
@@ -403,23 +403,21 @@ for (let i = 0; i < 20; i++) {
       --size: ${size}px;
       --dur: ${Math.random() * 6 + 4}s;
       --delay: ${Math.random() * 12}s;
-`;
+    `;
     container.appendChild(sparkle);
   }
-    
-// 流れ星(1本)
-for (let i = 0; i < 1; i++) {
-    const shooting = document.createElement('div');
-    shooting.className = 'shooting-star';
-    shooting.style.cssText = `
-      left: ${Math.random() * 70} + 10%;
-      top: ${Math.random() * 30}%;
-      --len: ${Math.random() * 60 + 40}px;
-      --dur: ${Math.random() * 8 + 8}s;
-      --delay: ${Math.random() * 20 + 5}s;
-`;
-    container.appendChild(shooting);
-  }
+
+  // 流れ星（1本）
+  const shooting = document.createElement('div');
+  shooting.className = 'shooting-star';
+  shooting.style.cssText = `
+    left: ${Math.random() * 70 + 10}%;
+    top: ${Math.random() * 30}%;
+    --len: ${Math.random() * 60 + 60}px;
+    --dur: ${Math.random() * 8 + 8}s;
+    --delay: ${Math.random() * 20 + 5}s;
+  `;
+  container.appendChild(shooting);
 }
 
 
@@ -519,15 +517,24 @@ document.getElementById('drawBtn').addEventListener('click', () => {
 document.getElementById('selectBtn').addEventListener('click', () => {
   const selectedId = cardSelect.value;
   if (!selectedId) {
-alert('カードを選んでください');
-return; 
+    alert('カードを選んでください');
+    return;
   }
-const card = CARDS.find(c => c.id === selectedId);
+  const card = CARDS.find(c => c.id === selectedId);
   if (card) {
-    showCard(card);
     closeMenu();
+    const flipInner = document.getElementById('cardFlipInner');
+    const cardContent = document.getElementById('cardContent');
+    flipInner.classList.remove('flipped');
+    cardContent.style.transition = 'none';
+    cardContent.style.opacity = '0';
+    cardContent.style.transform = 'translateY(12px)';
+    setTimeout(() => {
+      showCard(card);
+    }, 1600);
   }
 });
+
 
 // ===========================
 // もう一度引く
@@ -549,7 +556,7 @@ document.getElementById('againBtn').addEventListener('click', () => {
   setTimeout(() => {
     const randomCard = CARDS[Math.floor(Math.random() * CARDS.length)];
     showCard(randomCard);
-  }, 1800);
+  }, 1200);
 });
 
 

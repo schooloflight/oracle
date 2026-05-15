@@ -1,1 +1,574 @@
+/* ===========================
+   CSS Variables
+=========================== */
+:root {
+  --lavender: #c9b8e8;
+  --lavender-light: #e8dff7;
+  --pink: #f0c4d8;
+  --pink-light: #fce8f3;
+  --gold: #d4a853;
+  --gold-light: #f0d898;
+  --white: #ffffff;
+  --text-dark: #4a3860;
+  --text-mid: #7a6090;
+  --bg-start: #f5eeff;
+  --bg-mid: #fce8f5;
+  --bg-end: #fff0fa;
+  --card-bg: rgba(255,255,255,0.55);
+  --shadow: 0 8px 48px rgba(180,140,220,0.18);
+  --radius: 20px;
+  --font-display: 'Cinzel', serif;
+  --font-body: 'Cormorant Garamond', serif;
+  --font-ja: 'Noto Serif JP', serif;
+}
 
+/* ===========================
+   Reset & Base
+=========================== */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  font-family: var(--font-body);
+  background: linear-gradient(160deg, var(--bg-start) 0%, var(--bg-mid) 50%, var(--bg-end) 100%);
+  min-height: 100vh;
+  color: var(--text-dark);
+  overflow-x: hidden;
+  position: relative;
+}
+
+/* ===========================
+   Stars Background
+=========================== */
+.stars {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 0;
+  overflow: hidden;
+}
+
+.star {
+  position: absolute;
+  border-radius: 50%;
+  background: var(--gold-light);
+  animation: twinkle var(--dur, 3s) ease-in-out infinite var(--delay, 0s);
+  opacity: 0;
+}
+
+@keyframes twinkle {
+  0%, 100% { opacity: 0; transform: scale(0.5); }
+  50% { opacity: 0.7; transform: scale(1); }
+}
+
+/* ===========================
+   Hamburger Button
+=========================== */
+.hamburger {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 200;
+  background: rgba(255,255,255,0.75);
+  backdrop-filter: blur(12px);
+  border: 1.5px solid var(--lavender);
+  border-radius: 12px;
+  width: 46px;
+  height: 46px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  padding: 10px;
+  box-shadow: 0 2px 16px rgba(180,140,220,0.15);
+  transition: background 0.2s;
+}
+
+.hamburger:hover { background: rgba(255,255,255,0.95); }
+
+.hamburger span {
+  display: block;
+  width: 20px;
+  height: 1.5px;
+  background: var(--text-mid);
+  border-radius: 2px;
+  transition: all 0.3s;
+}
+
+/* ===========================
+   Side Menu
+=========================== */
+.menu-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(80,50,120,0.18);
+  backdrop-filter: blur(2px);
+  z-index: 299;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s;
+}
+
+.menu-overlay.active {
+  opacity: 1;
+  pointer-events: all;
+}
+
+.side-menu {
+  position: fixed;
+  top: 0;
+  right: -320px;
+  width: 300px;
+  height: 100vh;
+  background: rgba(255,255,255,0.92);
+  backdrop-filter: blur(20px);
+  border-left: 1px solid var(--lavender-light);
+  z-index: 300;
+  padding: 32px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  transition: right 0.35s cubic-bezier(0.4,0,0.2,1);
+  box-shadow: -8px 0 40px rgba(180,140,220,0.15);
+}
+
+.side-menu.active { right: 0; }
+
+.menu-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menu-label {
+  font-family: var(--font-display);
+  font-size: 0.8rem;
+  color: var(--gold);
+  letter-spacing: 0.1em;
+}
+
+.menu-close {
+  background: none;
+  border: none;
+  font-size: 1.1rem;
+  color: var(--text-mid);
+  cursor: pointer;
+  padding: 4px 8px;
+  border-radius: 6px;
+  transition: color 0.2s;
+}
+.menu-close:hover { color: var(--text-dark); }
+
+.card-select {
+  width: 100%;
+  padding: 12px 16px;
+  border: 1.5px solid var(--lavender);
+  border-radius: 12px;
+  background: rgba(255,255,255,0.8);
+  font-family: var(--font-ja);
+  font-size: 0.88rem;
+  color: var(--text-dark);
+  appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1l5 5 5-5' stroke='%237a6090' stroke-width='1.5' fill='none' stroke-linecap='round'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 14px center;
+  cursor: pointer;
+  outline: none;
+  transition: border-color 0.2s;
+}
+.card-select:focus { border-color: var(--lavender); }
+
+.btn-select {
+  width: 100%;
+  padding: 13px;
+  background: linear-gradient(135deg, var(--lavender) 0%, var(--pink) 100%);
+  border: none;
+  border-radius: 12px;
+  font-family: var(--font-ja);
+  font-size: 0.9rem;
+  color: white;
+  cursor: pointer;
+  letter-spacing: 0.08em;
+  box-shadow: 0 4px 20px rgba(180,140,220,0.3);
+  transition: all 0.2s;
+}
+.btn-select:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 6px 24px rgba(180,140,220,0.4);
+}
+
+/* ===========================
+   Main Layout
+=========================== */
+.main {
+  position: relative;
+  z-index: 1;
+  max-width: 480px;
+  margin: 0 auto;
+  padding: 0 20px 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+}
+
+/* ===========================
+   Site Header
+=========================== */
+.site-header {
+  text-align: center;
+  padding-top: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.site-subtitle {
+  font-family: var(--font-display);
+  font-size: 0.72rem;
+  letter-spacing: 0.35em;
+  color: var(--gold);
+}
+
+.site-title {
+  font-family: var(--font-display);
+  font-size: 2.8rem;
+  font-weight: 500;
+  letter-spacing: 0.15em;
+  background: linear-gradient(135deg, var(--lavender) 0%, var(--gold) 50%, var(--pink) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  line-height: 1.1;
+}
+
+.site-tagline {
+  font-family: var(--font-ja);
+  font-size: 0.82rem;
+  color: var(--text-mid);
+  letter-spacing: 0.1em;
+  font-weight: 300;
+}
+
+/* ===========================
+   Draw Button
+=========================== */
+.draw-section {
+  display: flex;
+  justify-content: center;
+}
+
+.btn-draw {
+  position: relative;
+  background: linear-gradient(135deg, #e0d0f8 0%, #f5d5ea 50%, #fce8d8 100%);
+  border: 1.5px solid rgba(212,168,83,0.4);
+  border-radius: 50px;
+  padding: 18px 48px;
+  cursor: pointer;
+  box-shadow:
+    0 4px 30px rgba(180,140,220,0.25),
+    inset 0 1px 0 rgba(255,255,255,0.7);
+  transition: all 0.3s ease;
+  overflow: hidden;
+}
+
+.btn-draw::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, rgba(255,255,255,0.4) 0%, transparent 60%);
+  border-radius: 50px;
+}
+
+.btn-draw:hover {
+  transform: translateY(-2px) scale(1.02);
+  box-shadow:
+    0 8px 40px rgba(180,140,220,0.35),
+    inset 0 1px 0 rgba(255,255,255,0.8);
+}
+
+.btn-draw:active { transform: translateY(0) scale(0.99); }
+
+.btn-inner {
+  font-family: var(--font-display);
+  font-size: 1rem;
+  letter-spacing: 0.18em;
+  color: var(--text-dark);
+  position: relative;
+  z-index: 1;
+}
+
+/* ===========================
+   Card Display
+=========================== */
+.card-display {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  animation: fadeUp 0.6s ease forwards;
+}
+
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(24px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+.card-number {
+  font-family: var(--font-display);
+  font-size: 0.78rem;
+  letter-spacing: 0.25em;
+  color: var(--gold);
+  opacity: 0.8;
+}
+
+/* ===========================
+   Card Flip
+=========================== */
+.card-flip-wrap {
+  position: relative;
+  width: 240px;
+  perspective: 1000px;
+  overflow: visible;
+}
+
+.card-flip-inner {
+  position: relative;
+  width: 100%;
+  transform-style: preserve-3d;
+  transition: transform 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.card-flip-inner.flipped {
+  transform: rotateY(180deg);
+}
+
+.card-face {
+  width: 100%;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  border-radius: 18px;
+  overflow: hidden;
+}
+
+.card-back {
+  position: relative;
+}
+
+.card-front {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: rotateY(180deg);
+}
+
+.card-face img {
+  width: 100%;
+  display: block;
+  border-radius: 18px;
+  box-shadow:
+    0 12px 48px rgba(180,140,220,0.3),
+    0 2px 8px rgba(180,140,220,0.2);
+}
+
+.card-image:hover { transform: none; }
+
+.card-glow {
+  position: absolute;
+  inset: -10px;
+  border-radius: 26px;
+  background: radial-gradient(ellipse at center, rgba(212,168,83,0.15) 0%, transparent 70%);
+  pointer-events: none;
+  animation: glowPulse 3s ease-in-out infinite;
+  z-index: -1;
+}
+
+@keyframes glowPulse {
+  0%, 100% { opacity: 0.5; transform: scale(1); }
+  50% { opacity: 1; transform: scale(1.03); }
+}
+
+/* ===========================
+   Card Titles
+=========================== */
+.card-titles {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.card-title-en {
+  font-family: var(--font-display);
+  font-size: 1.35rem;
+  font-weight: 500;
+  letter-spacing: 0.2em;
+  color: var(--text-dark);
+}
+
+.card-title-ja {
+  font-family: var(--font-ja);
+  font-size: 0.92rem;
+  font-weight: 300;
+  color: var(--text-mid);
+  letter-spacing: 0.15em;
+}
+
+/* ===========================
+   Divider
+=========================== */
+.divider {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  width: 80%;
+}
+
+.divider-line {
+  flex: 1;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--lavender), transparent);
+}
+
+.divider-star {
+  font-size: 0.7rem;
+  color: var(--gold);
+}
+
+/* ===========================
+   Affirmation
+=========================== */
+.affirmation-block {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px 24px;
+  background: rgba(255,255,255,0.55);
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(212,168,83,0.25);
+  border-radius: 16px;
+  width: 100%;
+  box-shadow: 0 4px 20px rgba(180,140,220,0.1);
+}
+
+.affirmation-label {
+  font-family: var(--font-display);
+  font-size: 0.68rem;
+  letter-spacing: 0.35em;
+  color: var(--gold);
+}
+
+.affirmation-en {
+  font-family: var(--font-body);
+  font-size: 1.05rem;
+  font-style: italic;
+  color: var(--text-dark);
+  line-height: 1.6;
+  font-weight: 300;
+}
+
+.affirmation-ja {
+  font-family: var(--font-ja);
+  font-size: 0.88rem;
+  color: var(--text-mid);
+  font-weight: 300;
+  line-height: 1.7;
+  letter-spacing: 0.05em;
+}
+
+/* ===========================
+   Soul Message
+=========================== */
+.card-message {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  padding: 24px;
+  background: rgba(255,255,255,0.45);
+  backdrop-filter: blur(8px);
+  border: 1px solid var(--lavender-light);
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(180,140,220,0.08);
+}
+
+.message-label {
+  font-family: var(--font-display);
+  font-size: 0.72rem;
+  letter-spacing: 0.25em;
+  color: var(--text-mid);
+  text-align: center;
+}
+
+.message-text {
+  font-family: var(--font-ja);
+  font-size: 0.9rem;
+  font-weight: 300;
+  color: var(--text-dark);
+  line-height: 2;
+  letter-spacing: 0.05em;
+  text-align: left;
+}
+
+/* ===========================
+   Again Button
+=========================== */
+.btn-again {
+  background: none;
+  border: 1.5px solid var(--lavender);
+  border-radius: 50px;
+  padding: 12px 36px;
+  font-family: var(--font-ja);
+  font-size: 0.88rem;
+  color: var(--text-mid);
+  cursor: pointer;
+  letter-spacing: 0.1em;
+  transition: all 0.2s;
+}
+
+.btn-again:hover {
+  background: rgba(201,184,232,0.15);
+  color: var(--text-dark);
+  transform: translateY(-1px);
+}
+
+/* ===========================
+   Footer
+=========================== */
+.site-footer {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  padding: 20px;
+  font-family: var(--font-display);
+  font-size: 0.68rem;
+  letter-spacing: 0.15em;
+  color: var(--text-mid);
+  opacity: 0.6;
+}
+
+/* cardContent 繝輔ぉ繝ｼ繝峨う繝ｳ蛻晄悄迥ｶ諷� */
+#cardContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  width: 100%;
+  opacity: 0;
+  transform: translateY(12px);
+}
+
+/* ===========================
+   Responsive
+=========================== */
+@media (max-width: 400px) {
+  .site-title { font-size: 2.2rem; }
+  .card-flip-wrap { width: 200px; }
+  .side-menu { width: 280px; }
+}

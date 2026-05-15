@@ -412,12 +412,11 @@ for (let i = 0; i < 1; i++) {
     const shooting = document.createElement('div');
     shooting.className = 'shooting-star';
     shooting.style.cssText = `
-      left: ${Math.random() * 80}%;
-      top: ${Math.random() * 60}%;
+      left: ${Math.random() * 70} + 10%;
+      top: ${Math.random() * 30}%;
       --len: ${Math.random() * 60 + 40}px;
-      --dur: ${Math.random() * 6 + 5}s;
+      --dur: ${Math.random() * 8 + 8}s;
       --delay: ${Math.random() * 20 + 5}s;
-      --angle: ${Math.random() * -40 - 10}deg;
 `;
     container.appendChild(shooting);
   }

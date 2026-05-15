@@ -367,7 +367,7 @@ message: "すべてには終わりがあり、すべての終わりに新しい�
 for (let i = 0; i < 40; i++) {
     const star = document.createElement('div');
     star.className = 'star';
-    const size = Math.random() * 3 + 1.5;
+    const size = Math.random() * 2 + 1;
     star.style.cssText = `
     left: ${Math.random() * 100}%;
            top: ${Math.random() * 100}%;
@@ -394,8 +394,8 @@ for (let i = 0; i < 20; i++) {
     container.appendChild(sparkle);
   }
     
-// 流れ星(4本)
-for (let i = 0; i < 4; i++) {
+// 流れ星(1本)
+for (let i = 0; i < 1; i++) {
     const shooting = document.createElement('div');
     shooting.className = 'shooting-star';
     shooting.style.cssText = `
@@ -403,7 +403,7 @@ for (let i = 0; i < 4; i++) {
       top: ${Math.random() * 60}%;
       --len: ${Math.random() * 60 + 40}px;
       --dur: ${Math.random() * 6 + 5}s;
-      --delay: ${Math.random() * 12}s;
+      --delay: ${Math.random() * 20 + 5}s;
       --angle: ${Math.random() * -40 - 10}deg;
 `;
     container.appendChild(shooting);

@@ -503,7 +503,14 @@ function showCard(card) {
 // ===========================
 document.getElementById('drawBtn').addEventListener('click', () => {
   const randomCard = CARDS[Math.floor(Math.random() * CARDS.length)];
-  document.qusrySelector('.draw-section').style.display = 'none';
+  document.querySelector('.draw-section').style.display = 'none';
+  showCard(randomCard);
+});
+
+document.getElementById('drawBtn').addEventListener('touchend', (e) => {
+  e.preventDefault();
+  const randomCard = CARDS[Math.floor(Math.random() * CARDS.length)];
+  document.querySelector('.draw-section').style.display = 'none';
   showCard(randomCard);
 });
 

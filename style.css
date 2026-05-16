@@ -345,6 +345,9 @@ body {
     inset 0 1px 0 rgba(255,255,255,0.7);
   transition: all 0.3s ease;
   overflow: hidden;
+  -webkit-tap-highlight-color: transparent;
+  touch-action: manipulation;
+  cursor: pointer;
 }
 
 .btn-draw::before {

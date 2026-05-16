@@ -418,7 +418,7 @@ function createStars() {
    //  --delay: ${Math.random() * 20 + 5}s;
   // `;
  //  container.appendChild(shooting);
- //}
+}
 
 
 // ===========================

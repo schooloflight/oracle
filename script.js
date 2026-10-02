@@ -14,26 +14,26 @@ message: "あなたの魂は新しい旅の始まりを告げています。完�
 },
 {
 id: "01",
-titleEn: "TRUST YOURSELF",
-titleJa: "自分を信じる",
-affirmationEn: "I trust my intuition and inner wisdom.",
-affirmationJa: "私は自分の直感と内なる知恵を信じる。",
+titleEn: "The Lantern of Trust",
+titleJa: "信頼の灯火",
+affirmationEn: "I trust the universe and share my light with others.",
+affirmationJa: "私は宇宙を信頼し、自らの光を分かち合います。",
 message: "あなたの内側には、すべての答えがあります。外の世界に答えを求めるより、静かに内なる声に耳を傾けてください。その声はいつもあなたを正しい方向へ導いています。"
 },
 {
 id: "02",
-titleEn: "OPEN YOUR HEART",
-titleJa: "心を開く",
-affirmationEn: "I open my heart to love and infinite possibility.",
-affirmationJa: "私は愛と無限の可能性に心を開く。",
+titleEn: "The Crystal of Earth",
+titleJa: "大地のクリスタル",
+affirmationEn: "I am grounded and safe, rooted deeply in the earth.",
+affirmationJa: "私は大地に根を張り、安心してここにいます",
 message: "心を開くことは、無防備になることではありません。それは、宇宙からの贈り物を受け取る準備ができたということ。あなたの心の扉を、そっと開いてみてください。"
 },
 {
 id: "03",
-titleEn: "FIND YOUR PATH",
-titleJa: "道を見つける",
-affirmationEn: "I return to my center and find my true path.",
-affirmationJa: "私は中心に戻り、真の道を見つける。",
+titleEn: "The Compass of Truth",
+titleJa: "真実のコンパス",
+affirmationEn: "I stand in my truth and let it guide my way.",
+affirmationJa: "私は真実の軸に立ち、それを道しるべとします",
 message: "迷いを感じているとき、それは新しい道が開こうとしているサインです。焦らず、あなたのペースで進んでください。魂はすでに目的地を知っています。"
 },
 {

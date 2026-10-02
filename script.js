@@ -54,66 +54,66 @@ message: "木が高く伸びるためには、深く根を張る必要があり�
 },
 {
 id: "06",
-titleEn: "RECEIVE ABUNDANCE",
-titleJa: "豊かさを受け取る",
-affirmationEn: "I allow abundance to flow freely into my life.",
-affirmationJa: "私は豊かさが自由に流れ込むことを許す。",
-message: "豊かさはすでにあなたのもとへ向かっています。受け取ることへの罪悪感を手放してください。あなたが満たされることで、周りの人たちも輝くことができます。"
+titleEn: "The Drop of Connection",
+titleJa: "絆のしずく",
+affirmationEn: "I heal my relationships and return to love.",
+affirmationJa: "私はつながりを癒し、愛へ還ります。",
+message: ""
 },
 {
 id: "07",
-titleEn: "IGNITE THE FLAME",
-titleJa: "炎を灯す",
-affirmationEn: "I ignite the sacred flame of transformation within.",
-affirmationJa: "私は内なる変容の聖なる炎を灯す。",
-message: "あなたの中に、消えることのない炎があります。それは情熱であり、創造力であり、魂の核心です。その炎を怖れず、そっと育ててください。"
+titleEn: "The Harp of the Stars",
+titleJa: "星々のハープ",
+affirmationEn: "I am in harmony with the universe, and my heart sings with the stars.",
+affirmationJa: "私は宇宙と調和し、星々と共に心の歌を奏でます。",
+message: ""
 },
 {
 id: "08",
-titleEn: "WALK YOUR PATH",
-titleJa: "自分の道を歩む",
-affirmationEn: "I walk my unique path with confidence and grace.",
-affirmationJa: "私は自信と優雅さで自分だけの道を歩む。",
-message: "誰かの道を羨む必要はありません。あなたの道はあなただけのもの。その独自性こそが、この世界であなたが輝ける理由です。"
+titleEn: "The Golden Key",
+titleJa: "黄金の鍵",
+affirmationEn: "I open the door to abundance and love.",
+affirmationJa: "私は愛と豊かさの扉を開きます。",
+message: ""
 },
 {
 id: "09",
-titleEn: "HEAR THE SILENCE",
-titleJa: "静寂を聴く",
-affirmationEn: "In silence, I hear my soul’s gentle voice.",
-affirmationJa: "静寂の中で、私は魂の優しい声を聴く。",
-message: "日常の喧騒から離れ、静かな時間を作ってください。沈黙の中にこそ、宇宙からのメッセージが届きます。あなたの魂はいつも、あなたと話したがっています。"
+titleEn: "The Akashic Gate",
+titleJa: "アカシックの扉",
+affirmationEn: "I open the Akashic gate and remember my soul’s wisdom.",
+affirmationJa: "私はアカシックの扉を開き、魂の叡智を思い出します。",
+message: ""
 },
 {
 id: "10",
-titleEn: "SET YOUR BOUNDARIES",
-titleJa: "境界線を引く",
-affirmationEn: "I honor myself and create loving boundaries.",
-affirmationJa: "私は自分を大切にし、愛ある境界線を作る。",
-message: "境界線は壁ではなく、自分を愛するための形です。「ノー」と言える勇気が、あなたをより深く人と繋がれる存在にします。"
+titleEn: "The Mirror Drop",
+titleJa: "鏡の雫",
+affirmationEn: "I accept myself as I am and reflect my pure light.",
+affirmationJa: "私はあるがままの自分を受け入れ、自らの光を映します。",
+message: ""
 },
 {
 id: "11",
-titleEn: "DOWNLOAD THE VISION",
-titleJa: "ビジョンを受け取る",
-affirmationEn: "I download divine wisdom and inspired vision.",
-affirmationJa: "私は神聖な知恵とインスピレーションを受け取る。",
-message: "あなたの夢やビジョンは、宇宙からのギフトです。それが今は荒唐無稽に見えても、魂はその可能性を知っています。まずは信じることから始めましょう。"
+titleEn: "The Hourglass of Now",
+titleJa: "砂時計",
+affirmationEn: "I return to the present moment with calm and clarity.",
+affirmationJa: "私は穏やかさと澄んだ心で、今この瞬間に戻ります。",
+message: ""
 },
 {
 id: "12",
-titleEn: "RISE AS PHOENIX",
-titleJa: "フェニックスとして蘇る",
-affirmationEn: "I rise from the ashes renewed and stronger.",
-affirmationJa: "私は灰の中から再生し、より強くなって蘇る。",
-message: "終わりだと思っていたものが、実は新しい始まりでした。あなたはもう一度、美しく蘇ることができます。その再生の力はあなたの中にすでにあります。"
+titleEn: "The Wand of Light",
+titleJa: "光の杖",
+affirmationEn: "I align my energy and shine as pure light.",
+affirmationJa: "私はエネルギーを整え、私らしい光で輝きます。",
+message: ""
 },
 {
 id: "13",
 titleEn: "Breathe Deeply",
 titleJa: "神殿に入る深く息をする",
 affirmationEn: "With every breath, I return to myself.",
-affirmationJa: "一息ごとに、私は自分へ戻ります。",
+affirmationJa: "一息ごとに、私は私へ還ります。",
 message: `あなたは、長い間、誰かのために心を尽くしてきました。家族や周囲のことを優先して、自分の心や体を後回しにしてきたかもしれません。その優しさは尊い宝物ですが、知らず知らずのうちに息も浅くなり、緊張や疲れを抱え込んでしまっていることもあります。
 
 今、静かに目を閉じて、深く息を吸い込みましょう。息を吸うたびに、あなたの内側に柔らかな光が流れ込み、生命のエネルギーが体の隅々まで巡っていきます。吐くときには、重みや緊張、もう必要のない思いをそっと手放します。大樹の根のようにあなたを支える安心感を感じ、光の粒子が周囲を優しく包み込むのを思い描いてください。あなたは一人ではありません。見えないサポートが、静かにあなたを見守っています。
@@ -128,7 +128,7 @@ id: "14",
 titleEn: "Plant the Seed",
 titleJa: "種を植える",
 affirmationEn: "I plant new intentions and nurture them with love.",
-affirmationJa: "私は意図の種を植え、愛で育てます。",
+affirmationJa: "私は新しい意図の種を植え、愛で育てます。",
 message: `あなたの手のひらに小さな種をそっとのせると、心の奥で静かな希望が芽吹くのを感じます。この種は、ただの植物ではなく、あなたの想い、願い、未来への意図の象徴です。土に落とし、優しく覆い、光や水を与えるように、あなたは自分の内なる願いに寄り添い、育てていくことができます。
   
   種を植える瞬間、長く抱えてきた不安や迷いをそっと手放せます。まだ形になっていない小さな一歩ですが、それは未来へ続く冒険の始まりです。奥に延びる道が薄く見えるときも、安心してください。見えない世界で種は確実に根を張り、やがて芽を出し、花を咲かせます。土の中の小さな命のように、あなたの内側でも奇跡が静かに育まれているのです。
@@ -137,13 +137,14 @@ message: `あなたの手のひらに小さな種をそっとのせると、心�
 
   一歩ずつ、自分のペースで、でも確実に。小さな希望の種は、あなたの心と魂を育て、やがて花開く日を待っています。呼吸を整えながら、この瞬間を大切にしてください。`
 },
-  {
+  
+{
 id: "15",
-titleEn: "HARP OF THE STARS",
-titleJa: "星々のハープ",
-affirmationEn: "I am in harmony with the universe and all that is.",
-affirmationJa: "私は宇宙と全存在と調和している。",
-message: "あなたの存在そのものが、宇宙の音楽の一部です。今感じている不調和も、より大きな調和のプロセス。すべてはうまくいっています。"
+titleEn: "Stand for Your Dream",
+titleJa: "夢を引き受ける",
+affirmationEn: "I stand firmly for the dream my soul whispers.",
+affirmationJa: "私は自らの夢を引き受け、揺るがず立ちます。",
+message: ""
 },
 {
 id: "16",

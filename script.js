@@ -10,7 +10,7 @@ titleEn: "The Map of Light",
 titleJa: "光の地図",
 affirmationEn: "I walk the path drawn on my soul’s map of light.",
 affirmationJa: "私は魂の光の地図に描かれた道を歩みます。",
-message: "あなたの魂は新しい旅の始まりを告げています。完璧な準備が整うのを待つ必要はありません。今この瞬間、あなたはすでに十分です。一歩踏み出すその勇気が、道を照らす星になります。"
+message: ""
 },
 {
 id: "01",
@@ -26,7 +26,7 @@ titleEn: "The Crystal of Earth",
 titleJa: "大地のクリスタル",
 affirmationEn: "I am grounded and safe, rooted deeply in the earth.",
 affirmationJa: "私は大地に根を張り、安心してここにいます",
-message: "心を開くことは、無防備になることではありません。それは、宇宙からの贈り物を受け取る準備ができたということ。あなたの心の扉を、そっと開いてみてください。"
+message: ""
 },
 {
 id: "03",
@@ -34,7 +34,7 @@ titleEn: "The Compass of Truth",
 titleJa: "真実のコンパス",
 affirmationEn: "I stand in my truth and let it guide my way.",
 affirmationJa: "私は真実の軸に立ち、それを道しるべとします",
-message: "迷いを感じているとき、それは新しい道が開こうとしているサインです。焦らず、あなたのペースで進んでください。魂はすでに目的地を知っています。"
+message: ""
 },
 {
 id: "04",
@@ -50,7 +50,7 @@ titleEn: "The Feather of Truth",
 titleJa: "真実の羽根",
 affirmationEn: "I write and speak my heart’s truth with clarity.",
 affirmationJa: "私は心の真実をありのままに言葉にします。",
-message: "木が高く伸びるためには、深く根を張る必要があります。今は静かに自分の基盤を整える時。安定した土台があるから、あなたは思い切り花を咲かせることができます。"
+message: ""
 },
 {
 id: "06",

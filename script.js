@@ -148,225 +148,227 @@ message: ""
 },
 {
 id: "16",
-titleEn: "HONOR YOUR GIFTS",
-titleJa: "才能を讃える",
-affirmationEn: "I honor and share the gifts I came here to give.",
-affirmationJa: "私はここに持ってきた才能を讃え、分かち合う。",
-message: "あなたが当たり前だと思っていることが、誰かにとっては奇跡かもしれません。あなたの才能を世界と分かち合う時が来ています。"
+titleEn: "Create Boundaries",
+titleJa: "境界線をつくる",
+affirmationEn: "I honor my space and create healthy boundaries.",
+affirmationJa: "私は自分と他者の境界線を健やかに引きます。",
+message: ""
 },
 {
 id: "17",
-titleEn: "STAND IN YOUR TRUTH",
-titleJa: "真実の中に立つ",
-affirmationEn: "I stand fully in my truth with love and clarity.",
-affirmationJa: "私は愛と明晰さの中で真実に完全に立つ。",
-message: "あなたの真実は、あなただけのものです。周りの期待より、自分の魂の声を信じてください。本当の自分でいることが、最も美しい生き方です。"
+titleEn: "Hear the Silence",
+titleJa: "静寂を聴く",
+affirmationEn: "In silence, I hear my soul’s voice.",
+affirmationJa: "静けさの中で、私は魂の声を聴きます。",
+message: ""
 },
 {
 id: "18",
-titleEn: "RELEASE AND FLOW",
-titleJa: "手放して流れる",
-affirmationEn: "I release what no longer serves me and flow freely.",
-affirmationJa: "私はもう必要のないものを手放し、自由に流れる。",
-message: "手放すことへの恐れがありますか？でも、川は岩を掴み続けることで前に進めません。手放すことで、あなたは本当に自由になれます。"
+titleEn: "Return to Yourself",
+titleJa: "私に還る",
+affirmationEn: "I return to sacred balance within my mind, body, and spirit.",
+affirmationJa: "私は心と体と魂の調和へ、静かに戻ります",
+message: ""
 },
 {
 id: "19",
-titleEn: "WEAVE YOUR DREAM",
-titleJa: "夢を紡ぐ",
-affirmationEn: "I weave my dreams into beautiful reality.",
-affirmationJa: "私は夢を美しい現実へと紡いでいく。",
-message: "夢を持つことは、未来への祈りです。その夢を大切に、毎日少しずつ形にしていきましょう。あなたの夢は、現実になる力を持っています。"
+titleEn: "Flow with Life",
+titleJa: "流れに委ねる",
+affirmationEn: "I surrender to life’s flow with trust and ease.",
+affirmationJa: "私は人生の流れを信頼し、穏やかに身を委ねます。",
+message: ""
 },
 {
 id: "20",
-titleEn: "CONNECT WITH NATURE",
-titleJa: "自然と繋がる",
-affirmationEn: "I am one with nature and all living beings.",
-affirmationJa: "私は自然とすべての生きものと一つになる。",
-message: "自然はあなたの最も古い友人です。木々、水、風の声に耳を傾けてください。地球はあなたをいつも、温かく迎え入れています。"
+titleEn: "Step into Courage",
+titleJa: "勇気を持って踏み出す",
+affirmationEn: "I take one step forward with courage and faith.",
+affirmationJa: "私は勇気とともに一歩を踏み出します。",
+message: ""
 },
 {
 id: "21",
-titleEn: "ILLUMINATE YOUR SHADOW",
-titleJa: "影を照らす",
-affirmationEn: "I embrace all parts of myself with gentle compassion.",
-affirmationJa: "私はすべての自分の部分を優しい慈愛で抱きしめる。",
-message: "影は光があるからこそ生まれます。自分の影の部分を否定せず、好奇心を持って向き合ってください。そこにこそ、あなたの最大の宝が眠っています。"
+titleEn: "Heal Yourself",
+titleJa: "自分を癒す",
+affirmationEn: "I embrace myself with love and healing light.",
+affirmationJa: "私は愛と癒しの光で、自分自身を癒します。",
+message: ""
 },
 {
 id: "22",
-titleEn: "AWAKEN YOUR SENSES",
-titleJa: "感覚を目覚めさせる",
-affirmationEn: "I am fully awake, present, and alive in this moment.",
-affirmationJa: "私は今この瞬間に完全に目覚め、存在している。",
-message: "今、この瞬間の美しさに気づいていますか？五感を全開にして、今ここにある命の豊かさを感じてください。"
+titleEn: "Face the Shadow",
+titleJa: "影と向き合う",
+affirmationEn: "I welcome my shadow and transform it into power.",
+affirmationJa: "私は自分の影を受け入れ、それを力に変えていきます。",
+message: ""
 },
 {
 id: "23",
-titleEn: "CRYSTAL CLARITY",
-titleJa: "クリスタルの明晰さ",
-affirmationEn: "My mind and heart are clear as crystal.",
-affirmationJa: "私の心と魂はクリスタルのように澄み渡っている。",
-message: "混乱の中にも、クリスタルのような純粋な核心があります。静かに内側を見つめると、答えは驚くほど明確に見えてきます。"
+titleEn: "Trust Yourself",
+titleJa: "自分を信じる",
+affirmationEn: "I trust my intuition and inner wisdom.",
+affirmationJa: "私は自らの直感を信じます。",
+message: ""
 },
 {
 id: "24",
-titleEn: "DANCE WITH JOY",
-titleJa: "喜びと踊る",
-affirmationEn: "I allow joy to move through me freely and fully.",
-affirmationJa: "私は喜びが自由に私の中を流れることを許す。",
-message: "喜びはあなたの魂の本来の状態です。日常の小さな喜びを見逃さないでください。喜びを選ぶことは、宇宙への感謝の表れです。"
+titleEn: "Find the Center",
+titleJa: "中心に戻る",
+affirmationEn: "I return to my center, calm and strong.",
+affirmationJa: "私は中心に戻り、静かに真実を見極めます。",
+message: ""
 },
 {
 id: "25",
-titleEn: "PLANT YOUR SEEDS",
-titleJa: "種を蒔く",
-affirmationEn: "I plant seeds of intention with love and patience.",
-affirmationJa: "私は愛と忍耐で意図の種を蒔く。",
-message: "今は見えなくても、あなたが蒔いた種は確かに育っています。結果を焦らず、愛情を持って育て続けてください。"
+titleEn: "Shine Your Light",
+titleJa: "光を放つ",
+affirmationEn: "I shine my unique light fearlessly into the world.",
+affirmationJa: "私は、私だけの光を恐れず世界へ放ちます。",
+message: ""
 },
 {
 id: "26",
-titleEn: "HONOR YOUR BODY",
-titleJa: "身体を讃える",
-affirmationEn: "I cherish my body as the sacred home of my soul.",
-affirmationJa: "私は身体を魂の聖なる家として大切にする。",
-message: "あなたの体は、この世界で魂が宿る神聖な場所。体の声に耳を傾け、必要な休息と栄養を与えてください。"
+titleEn: "Follow the Moon",
+titleJa: "月に従う",
+affirmationEn: "I flow with the cycles of the moon and my soul.",
+affirmationJa: "私は月と魂のリズムに合わせて流れます。",
+message: ""
 },
 {
 id: "27",
-titleEn: "FLOW WITH GRACE",
-titleJa: "優雅に流れる",
-affirmationEn: "I move through life with ease, flow, and grace.",
-affirmationJa: "私は人生をやすらぎと流れと優雅さで歩む。",
-message: "無理に押し進もうとすると、かえって遠回りになることがあります。川の流れのように、自然な流れに乗ってみましょう。"
+titleEn: "Cross the Bridge",
+titleJa: "橋を渡る",
+affirmationEn: "I cross beyond fear into freedom.",
+affirmationJa: "私は恐れを越えて自由への橋を渡ります。",
+message: ""
 },
 {
 id: "28",
-titleEn: "OPEN THE GATEWAY",
-titleJa: "門を開く",
-affirmationEn: "I open the gateway to new possibilities and dimensions.",
-affirmationJa: "私は新しい可能性と次元への門を開く。",
-message: "目の前の扉が重く感じても、その先には想像を超えた世界が待っています。恐れではなく好奇心を持って、扉を開いてみてください。"
+titleEn: "Open the Door",
+titleJa: "扉を開く",
+affirmationEn: "I open new doors and welcome opportunities.",
+affirmationJa: "私は自ら扉を開き、その先へ進みます。",
+message: ""
 },
 {
 id: "29",
-titleEn: "FEEL YOUR FEELINGS",
-titleJa: "感情を感じる",
-affirmationEn: "I honor my emotions as sacred messengers of my soul.",
-affirmationJa: "私は感情を魂の聖なるメッセンジャーとして大切にする。",
-message: "感情を押し込める必要はありません。感情はあなたの魂からのメッセージ。その感情が何を伝えようとしているのか、優しく聞いてみてください。"
+titleEn: "Choose Freedom",
+titleJa: "自由を選ぶ",
+affirmationEn: "I choose freedom over fear and limitation.",
+affirmationJa: "私は恐れや制限ではなく、自由を選びます。",
+message: ""
 },
 {
 id: "30",
-titleEn: "REMEMBER YOUR ORIGIN",
-titleJa: "起源を思い出す",
-affirmationEn: "I remember who I truly am beyond time and space.",
-affirmationJa: "私は時間と空間を超えた真の自分を思い出す。",
-message: "あなたは偶然ここにいるのではありません。深い意図と愛の中でここに来ました。あなたの本当の姿と使命を、今ゆっくり思い出してください。"
+titleEn: "Unite with Others",
+titleJa: "仲間とつながる",
+affirmationEn: "I unite with others in love and shared vision.",
+affirmationJa: "私は想いを分かち合い、ともに創ります。",
+message: ""
 },
 {
 id: "31",
-titleEn: "SPEAK YOUR TRUTH",
-titleJa: "真実を語る",
-affirmationEn: "I express my truth with clarity, love, and courage.",
-affirmationJa: "私は明晰さと愛と勇気で真実を語る。",
-message: "あなたの言葉には力があります。心の中にある言葉を、勇気を持って声に出してください。あなたの声は世界を変える力を持っています。"
+titleEn: "Reach for the Stars",
+titleJa: "星に手を伸ばす",
+affirmationEn: "I transcend all boundaries, holding infinite stars in my hands.",
+affirmationJa: "私は境界を越え、無限の星々をこの手に抱きます。",
+message: ""
 },
 {
 id: "32",
-titleEn: "NURTURE YOUR SOUL",
-titleJa: "魂を育てる",
-affirmationEn: "I lovingly nurture my soul with care and tenderness.",
-affirmationJa: "私は愛を持って魂を優しく丁寧に育てる。",
-message: "自分自身への愛情を忘れていませんか？魂を育てることは、自分をケアすること。今日、自分に優しくする時間を作ってください。"
+titleEn: "Walk Your Path",
+titleJa: "自分の道を歩く",
+affirmationEn: "I walk my unique path with confidence and grace.",
+affirmationJa: "私は自分だけの道を、焦らず歩みます。",
+message: ""
 },
 {
 id: "33",
-titleEn: "SEEK THE SACRED",
-titleJa: "神聖さを求める",
-affirmationEn: "I find the sacred in every moment and every breath.",
-affirmationJa: "私はすべての瞬間と呼吸の中に神聖さを見出す。",
-message: "神聖さは特別な場所にだけあるのではありません。日常のすべての瞬間に、聖なるものが宿っています。"
+titleEn: "Abundance",
+titleJa: "豊かさを受け取る",
+affirmationEn: "I allow abundance to flow easily into my life.",
+affirmationJa: "私の人生は、豊かさで満ちています。",
+message: ""
 },
 {
 id: "34",
-titleEn: "WEAVE WITH STARS",
-titleJa: "星と共に紡ぐ",
-affirmationEn: "I am woven from starlight and ancient love.",
-affirmationJa: "私は星の光と古い愛から紡がれている。",
-message: "あなたの細胞には宇宙の歴史が刻まれています。星から来て、星へ帰る存在として、今ここでの輝きを信じてください。"
+titleEn: "Call in your guardian",
+titleJa: "守護者を招く",
+affirmationEn: "I allow myself to be supported.",
+affirmationJa: "私は支えられることを許します。",
+message: ""
 },
 {
 id: "35",
-titleEn: "BUILD YOUR SANCTUARY",
-titleJa: "聖域を作る",
-affirmationEn: "I create a sacred sanctuary of peace within myself.",
-affirmationJa: "私は内側に平和の聖域を作る。",
-message: "外の世界がどんなに騒がしくても、あなたの内側には静かな聖域があります。そこへいつでも戻れることを覚えておいてください。"
+titleEn: "Rise as Phoenix",
+titleJa: "不死鳥のように蘇る",
+affirmationEn: "I rise from the ashes renewed and stronger.",
+affirmationJa: "私は灰の中から蘇り、新たな強さを得ます。",
+message: ""
 },
 {
 id: "36",
-titleEn: "LEAP INTO FAITH",
-titleJa: "信頼の中へ跳ぶ",
-affirmationEn: "I leap forward in faith, knowing I am always held.",
-affirmationJa: "私はいつも守られていると知りながら信頼の中へ跳ぶ。",
-message: "見えない橋を信じて一歩踏み出す時、足元に橋が現れることがあります。今がその時かもしれません。"
+titleEn: "Enter the Temple",
+titleJa: "魂の記憶に触れる",
+affirmationEn: "I step into the sacred temple of my soul.",
+affirmationJa: "私は魂の記憶へと深く潜ります。",
+message: ""
 },
 {
 id: "37",
-titleEn: "UNCOVER THE HIDDEN",
-titleJa: "隠されたものを明かす",
-affirmationEn: "I unveil the ancient wisdom hidden within me.",
-affirmationJa: "私は内側に隠された古代の知恵を明らかにする。",
-message: "あなたはすでに多くを知っています。意識の表層より深い場所に、膨大な知恵が眠っています。直感というその扉を、信じて開いてください。"
+titleEn: "Hidden Sanctuary",
+titleJa: "忘れられた聖域",
+affirmationEn: "I unlock the ancient wisdom hidden within the sanctuary.",
+affirmationJa: "私は聖域に眠る古代の記憶に触れます。",
+message: ""
 },
 {
 id: "38",
-titleEn: "RETURN TO LOVE",
-titleJa: "愛に戻る",
-affirmationEn: "I always return to love as my natural home.",
-affirmationJa: "私は愛を自然な家として、いつもそこへ戻る。",
-message: "迷いや恐れを感じた時、愛へ戻ることを思い出してください。愛こそがあなたの本来の場所であり、すべての答えがある場所です。"
+titleEn: "Awaken the Dragon",
+titleJa: "龍を呼び覚ます",
+affirmationEn: "I awaken the dragon of power and wisdom within me.",
+affirmationJa: "私は自らの中に眠る力と知恵の龍を目覚めさせます。",
+message: ""
 },
 {
 id: "39",
-titleEn: "IGNITE YOUR PASSION",
-titleJa: "情熱を燃やす",
-affirmationEn: "I ignite my passion and let it light the way.",
-affirmationJa: "私は情熱に火を灯し、それを道の光にする。",
-message: "何があなたをときめかせますか？その感覚を大切にしてください。情熱はあなたの魂が「これだ！」と言っているサインです。"
+titleEn: "Ignite the Flame",
+titleJa: "炎を灯す",
+affirmationEn: "I ignite the sacred flame of transformation.",
+affirmationJa: "私は灯した炎を守り育てます。",
+message: ""
 },
 {
 id: "40",
-titleEn: "SOFTEN AND RECEIVE",
-titleJa: "柔らかく受け取る",
-affirmationEn: "I soften my heart and gracefully receive all blessings.",
-affirmationJa: "私は心を柔らかくし、すべての祝福を優雅に受け取る。",
-message: "受け取ることは、宇宙の流れを信頼することです。今日は力を抜いて、やってくるものをそっと受け取ってみてください。"
+titleEn: "Download the Library",
+titleJa: "宇宙の叡智を受け取る",
+affirmationEn: "I download divine wisdom and awaken inner knowing.",
+affirmationJa: "私は宇宙の記憶を受け取り、光を思い出します。",
+message: ""
 },
 {
 id: "41",
-titleEn: "CONNECT YOUR SOULS",
-titleJa: "魂と繋がる",
-affirmationEn: "I attract and nurture deep, soulful connections.",
-affirmationJa: "私は深い魂レベルの繋がりを引き寄せ、育てる。",
-message: "魂の深い部分で繋がれる人との出会いは、宇宙からの贈り物です。本当の自分を見せることがそのような縁を引き寄せます。",
+titleEn: "Wear the Crown",
+titleJa: "王冠をかぶる",
+affirmationEn: "I wear the crown of my soul’s sovereignty.",
+affirmationJa: "私は自らの人生の主として、王冠をかぶります。",
+message: "",
 },
 {
 id: "42",
-titleEn: "EXPAND YOUR VISION",
-titleJa: "ビジョンを広げる",
-affirmationEn: "I expand my vision beyond what I can currently see.", affirmationJa: "私は今見えている以上にビジョンを広げる。",
-message: "今見えている景色が、すべてではありません。一歩高い場所に立つと、まったく違う世界が広がっていきます。あなたの可能性は、あなたが思う以上に広大です。",
+titleEn: "Align with the Divine",
+titleJa: "宇宙と一つに溶け合う",
+affirmationEn: "I am one with the cosmic flow of light and infinite wisdom.",
+affirmationJa: "私は星々がつなぐ光の流れの中にいます。",
+message: "",
 },
 {
 id: "43",
-titleEn: "COMPLETE THE CYCLE",
-titleJa: "循環を完成させる",
-affirmationEn: "I honor the sacred cycles of endings and beginnings.", affirmationJa: "私は終わりと始まりの聖なる循環を讃える。",
-message: "すべてには終わりがあり、すべての終わりに新しい始まりが宿っています。今あなたが経験していることも、大きな循環の一部。信頼して、次の章へ進みましょう。",
+titleEn: "Become the Light",
+titleJa: "光になる",
+affirmationEn: "I become pure light and radiate love endlessly.",
+affirmationJa: "私は光となり、自らの光を世界へ放ちます。",
+message: "",
 }
   
 ];

@@ -18,7 +18,7 @@ titleEn: "The Lantern of Trust",
 titleJa: "信頼の灯火",
 affirmationEn: "I trust the universe and share my light with others.",
 affirmationJa: "私は宇宙を信頼し、自らの光を分かち合います。",
-message: "あなたの内側には、すべての答えがあります。外の世界に答えを求めるより、静かに内なる声に耳を傾けてください。その声はいつもあなたを正しい方向へ導いています。"
+message: "これまで、たくさんのことを自分ひとりで抱えてきたのかもしれません。誰かに迷惑をかけないように、失敗しないように、先回りして考えて、できるだけ自分で何とかしようとしてきた。その頑張りは、あなた自身や大切な人を守るためだったのでしょう。でも、何もかも自分で背負おうとすると、心はいつの間にか休めなくなってしまいます。<br>今、両手をぎゅっと握っているような感覚があれば、ほんの少し力をゆるめてみましょう。「これは私が背負うこと？」「これは相手に委ねても大丈夫？」と、自分の課題と相手の課題を静かに分けてみてください。すべてを自分の力で動かさなくても、世界はちゃんと動いていきます。<br>手をゆるめることは、自分を無防備にすることではありません。自分で背負うものと、相手に委ねるものを分けながら、自分の内側に「ここにいて大丈夫」と思える安心をつくっていくことです。思考の癖に気づき、それを少しずつ癒していくことで、信じる力も育っていきます。<br>もう、ひとりですべてを抱えなくて大丈夫。自分で握りしめなくても、必要なものは必要な場所で動いています。少し力をゆるめたその余白に、今まで気づかなかった新たな安心が芽吹きます。"
 },
 {
 id: "02",
@@ -38,18 +38,18 @@ message: "迷いを感じているとき、それは新しい道が開こうと�
 },
 {
 id: "04",
-titleEn: "EMBRACE CHANGE",
-titleJa: "変化を受け入れる",
-affirmationEn: "I welcome change as a sacred gift of growth.",
-affirmationJa: "私は変化を成長の聖なる贈り物として歓迎する。",
+titleEn: "The Flame of Release",
+titleJa: "浄化の炎",
+affirmationEn: "I release what no longer serves me and welcome freedom.",
+affirmationJa: "私は不要なものを手放し、自由に羽ばたきます。",
 message: "変化は終わりではなく、新しい始まりです。手放すことへの恐れを、信頼へと変えてください。宇宙はあなたをより美しい場所へ連れて行こうとしています。"
 },
 {
 id: "05",
-titleEn: "GROUND YOUR ROOTS",
-titleJa: "根を張る",
-affirmationEn: "I am rooted in the earth and open to the sky.",
-affirmationJa: "私は大地に根ざし、空へと開かれている。",
+titleEn: "The Feather of Truth",
+titleJa: "真実の羽根",
+affirmationEn: "I write and speak my heart’s truth with clarity.",
+affirmationJa: "私は心の真実をありのままに言葉にします。",
 message: "木が高く伸びるためには、深く根を張る必要があります。今は静かに自分の基盤を整える時。安定した土台があるから、あなたは思い切り花を咲かせることができます。"
 },
 {

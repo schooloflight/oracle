@@ -944,3 +944,23 @@ modalOverlay.addEventListener('click', (e) => {
   }
 });
  
+// ===========================
+// ホームに戻る
+// ===========================
+document.getElementById('homeBtn').addEventListener('click', () => {
+  closeMenu();
+  const display = document.getElementById('cardDisplay');
+  const flipInner = document.getElementById('cardFlipInner');
+  const cardContent = document.getElementById('cardContent');
+
+  flipInner.classList.remove('flipped');
+  cardContent.style.transition = 'none';
+  cardContent.style.opacity = '0';
+  display.style.display = 'none';
+  document.querySelector('.draw-section').style.display = 'flex';
+});
+
+// ===========================
+// 初期化
+// ===========================
+createStars();

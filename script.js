@@ -842,7 +842,7 @@ document.getElementById('homeBtn').addEventListener('click', () => {
   cardContent.style.transition = 'none';
   cardContent.style.opacity = '0';
   display.style.display = 'none';
-  document.querySelector('.draw-section').style.display = 'flex';
+document.querySelector('.draw-section').style.display = 'flex';
 });
 
 // =========================== 

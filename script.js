@@ -503,7 +503,7 @@ function showCard(card) {
   // フリップ
   setTimeout(() => {
     flipInner.classList.add('flipped');
-  }, 600);
+  }, 400);
 
   // テキストフェードイン
   setTimeout(() => {

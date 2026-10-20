@@ -33,7 +33,25 @@
       <option value="">— カードを選んでください —</option>
     </select>
     <button class="btn-select" id="selectBtn">このカードを見る</button>
+    <!-- ホームに戻る -->
+    <button class="btn-home" id="homeBtn">⌂ ホームに戻る</button>
+    <!-- メニュー下部リンク -->
+    <div class="menu-footer-links">
+      <button class="menu-link-btn" data-modal="guide">利用ガイド</button>
+      <button class="menu-link-btn" data-modal="privacy">プライバシーポリシー</button>
+      <button class="menu-link-btn" data-modal="contact">お問い合わせ</button>
+      <button class="menu-link-btn" data-modal="copyright">著作権について</button>
+    </div>
+
   </nav>
+
+  <!-- モーダル -->
+  <div class="modal-overlay" id="modalOverlay">
+    <div class="modal-box" id="modalBox">
+      <button class="modal-close" id="modalClose">✕</button>
+      <div class="modal-content" id="modalContent"></div>
+    </div>
+  </div>
 
   <!-- メインコンテンツ -->
 

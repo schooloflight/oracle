@@ -900,6 +900,7 @@ contact: `
   <p>アプリのご利用に関するご質問や不具合のご報告、School of Lightの講座に関するお問い合わせは、以下をご確認のうえご連絡ください。</p>
   <h3>アプリについて</h3>
   <p>画面が正しく表示されない、カードが表示されない、操作ができないなど、アプリに関する不具合やご質問は公式LINEへお問い合わせください。</p>
+  <p><a href="https://line.me/R/ti/p/%40163qqhrp" target="_blank" style="color:#c9a84c;letter-spacing:0.05em;">LINEでお問い合わせ →</a></p>
   <p>お問い合わせの際は、可能な範囲で以下の情報をお知らせいただけると、確認がスムーズになります。</p>
   <ul>
   <li>お使いの端末(iPhone/Androidなど)</li>
@@ -909,6 +910,7 @@ contact: `
   </ul>
   <h3>School of Light・講座について</h3>
   <p>講座の内容や受講方法など、School of Lightに関するお問い合わせは公式LINEへご連絡ください。</p>
+  <p><a href="https://line.me/R/ti/p/%40163qqhrp" target="_blank" style="color:#c9a84c;letter-spacing:0.05em;">LINEでお問い合わせ →</a></p>
   <h3>お問い合わせにあたって</h3>
   <p>内容を確認のうえ、順次対応いたします。お問い合わせの内容によっては、回答までにお時間をいただく場合もございます。あらかじめご了承ください。</p>
   <p>皆さまに安心してご利用いただけるよう、よりよいアプリづくりに努めてまいります。</p>
@@ -935,7 +937,12 @@ document.querySelectorAll('.menu-link-btn').forEach(btn => {
     modalContent.innerHTML = MODAL_CONTENTS[key] || '';
     modalOverlay.classList.add('active');
     closeMenu();
-}); });
+    setTimeout(() => {
+      document.getElementById('modalBox').scrollTop = 0;
+    }, 10);
+  });
+});
+
 modalClose.addEventListener('click', () => {
   modalOverlay.classList.remove('active');
 });

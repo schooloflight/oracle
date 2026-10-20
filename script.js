@@ -832,7 +832,8 @@ createStars();
 
 // ===========================
 // ホームに戻る
-// =========================== document.getElementById('homeBtn').addEventListener('click', () => {
+// ===========================
+document.getElementById('homeBtn').addEventListener('click', () => {
   closeMenu();
   const display = document.getElementById('cardDisplay');
   const flipInner = document.getElementById('cardFlipInner');

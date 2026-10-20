@@ -517,16 +517,36 @@ function showCard(card) {
 // ランダムにカードを引く
 // ===========================
 document.getElementById('drawBtn').addEventListener('click', () => {
+  const flipInner = document.getElementById('cardFlipInner');
+  const cardContent = document.getElementById('cardContent');
   const randomCard = CARDS[Math.floor(Math.random() * CARDS.length)];
   document.querySelector('.draw-section').style.display = 'none';
-  showCard(randomCard);
+
+  cardContent.style.transition = 'none';
+  cardContent.style.opacity = '0';
+  cardContent.style.transform = 'translateY(12px)';
+  flipInner.classList.remove('flipped');
+
+  setTimeout(() => {
+    showCard(randomCard);
+  }, 1200);
 });
 
 document.getElementById('drawBtn').addEventListener('touchend', (e) => {
   e.preventDefault();
+  const flipInner = document.getElementById('cardFlipInner');
+  const cardContent = document.getElementById('cardContent');
   const randomCard = CARDS[Math.floor(Math.random() * CARDS.length)];
   document.querySelector('.draw-section').style.display = 'none';
-  showCard(randomCard);
+
+  cardContent.style.transition = 'none';
+  cardContent.style.opacity = '0';
+  cardContent.style.transform = 'translateY(12px)';
+  flipInner.classList.remove('flipped');
+
+  setTimeout(() => {
+    showCard(randomCard);
+  }, 1200);
 });
 
 // ===========================
@@ -541,6 +561,7 @@ document.getElementById('selectBtn').addEventListener('click', () => {
   const card = CARDS.find(c => c.id === selectedId);
   if (card) {
     closeMenu();
+    document.querySelector('.draw-section').style.display = 'none';
     const flipInner = document.getElementById('cardFlipInner');
     const cardContent = document.getElementById('cardContent');
     flipInner.classList.remove('flipped');

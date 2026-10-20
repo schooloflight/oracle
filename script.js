@@ -503,14 +503,14 @@ function showCard(card) {
   // フリップ
   setTimeout(() => {
     flipInner.classList.add('flipped');
-  }, 700);
+  }, 600);
 
   // テキストフェードイン
   setTimeout(() => {
     cardContent.style.transition = 'opacity 0.8s ease, transform 0.8s ease';
     cardContent.style.opacity = '1';
     cardContent.style.transform = 'translateY(0)';
-  }, 2000);
+  }, 1800);
 }
 
 

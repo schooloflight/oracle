@@ -727,7 +727,12 @@ function showCard(card) {
   cardContent.style.opacity = '0';
   cardContent.style.transform = 'translateY(12px)';
 
-  // データをセット
+  // 画像を先に非表示にしてからsrc差し替え
+  const cardImage = document.getElementById('cardImage');
+  cardImage.style.opacity = '0';
+  cardImage.src = `images/${parseInt(card.id)}.png`;
+
+  // テキストデータをセット
   document.getElementById('cardNumber').textContent = card.id;
   document.getElementById('cardImage').alt = card.titleEn;
   document.getElementById('cardTitleEn').textContent = card.titleEn;
@@ -745,15 +750,16 @@ function showCard(card) {
     display.scrollIntoView({ behavior: 'smooth', block: 'start' });
   }, 100);
 
-  // フリップ
-  // setTimeout(() => {
-  //  flipInner.classList.add('flipped');
-  // }, 400);
+  // フリップ開始（画像はまだ非表示のまま）
   setTimeout(() => {
-  document.getElementById('cardImage').src = `images/${parseInt(card.id)}.png`;
-  flipInner.classList.add('flipped');
-}, 700);
+    flipInner.classList.add('flipped');
+  }, 700);
 
+  // フリップ完了後に画像をフェードイン
+  setTimeout(() => {
+    cardImage.style.transition = 'opacity 0.4s ease';
+    cardImage.style.opacity = '1';
+  }, 1500);
 
   // テキストフェードイン
   setTimeout(() => {
@@ -825,7 +831,7 @@ document.getElementById('againBtn').addEventListener('click', () => {
   setTimeout(() => {
     const randomCard = CARDS[Math.floor(Math.random() * CARDS.length)];
     showCard(randomCard);
-  }, 1200);
+  }, 1600);
 });
 
 

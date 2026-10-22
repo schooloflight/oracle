@@ -729,7 +729,6 @@ function showCard(card) {
 
   // データをセット
   document.getElementById('cardNumber').textContent = card.id;
-  document.getElementById('cardImage').src = `images/${parseInt(card.id)}.png`;
   document.getElementById('cardImage').alt = card.titleEn;
   document.getElementById('cardTitleEn').textContent = card.titleEn;
   document.getElementById('cardTitleJa').textContent = card.titleJa;
@@ -747,9 +746,14 @@ function showCard(card) {
   }, 100);
 
   // フリップ
+  // setTimeout(() => {
+  //  flipInner.classList.add('flipped');
+  // }, 400);
   setTimeout(() => {
-    flipInner.classList.add('flipped');
-  }, 400);
+  document.getElementById('cardImage').src = `images/${parseInt(card.id)}.png`;
+  flipInner.classList.add('flipped');
+}, 700);
+
 
   // テキストフェードイン
   setTimeout(() => {

@@ -721,20 +721,16 @@ function showCard(card) {
   const display = document.getElementById('cardDisplay');
   const flipInner = document.getElementById('cardFlipInner');
   const cardContent = document.getElementById('cardContent');
+  const cardImage = document.getElementById('cardImage');
 
   // テキストを隠す
   cardContent.style.transition = 'none';
   cardContent.style.opacity = '0';
   cardContent.style.transform = 'translateY(12px)';
 
-  // 画像を先に非表示にしてからsrc差し替え
-  const cardImage = document.getElementById('cardImage');
-  cardImage.style.opacity = '0';
-  cardImage.src = `images/${parseInt(card.id)}.png`;
-
   // テキストデータをセット
   document.getElementById('cardNumber').textContent = card.id;
-  document.getElementById('cardImage').alt = card.titleEn;
+  cardImage.alt = card.titleEn;
   document.getElementById('cardTitleEn').textContent = card.titleEn;
   document.getElementById('cardTitleJa').textContent = card.titleJa;
   document.getElementById('affirmationEn').textContent = card.affirmationEn;
@@ -750,24 +746,25 @@ function showCard(card) {
     display.scrollIntoView({ behavior: 'smooth', block: 'start' });
   }, 100);
 
-  // フリップ開始（画像はまだ非表示のまま）
+  // フリップ開始
   setTimeout(() => {
     flipInner.classList.add('flipped');
   }, 700);
 
-  // フリップ完了後に画像をフェードイン
+  // 裏面が正面を向いている間（フリップの中間点）に画像差し替え
+  // 1.5sのフリップの真ん中 = 700 + 750 = 約1450ms
   setTimeout(() => {
-    cardImage.style.transition = 'opacity 0.4s ease';
-    cardImage.style.opacity = '1';
-  }, 1500);
+    cardImage.src = `images/${parseInt(card.id)}.png`;
+  }, 1450);
 
   // テキストフェードイン
   setTimeout(() => {
     cardContent.style.transition = 'opacity 0.8s ease, transform 0.8s ease';
     cardContent.style.opacity = '1';
     cardContent.style.transform = 'translateY(0)';
-  }, 1800);
+  }, 1900);
 }
+
 
 
 // =========================== 
